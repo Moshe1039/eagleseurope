@@ -15,7 +15,10 @@ Private villa journeys across Europe. A single-page website plus a small lead da
 | `server/worker.js` | Worker entry: routes `/api/enquiry` and `/admin`, everything else is served from `public/` |
 | `server/api/enquiry.js` | `POST /api/enquiry` – validates the form and saves the lead to D1 |
 | `server/admin/*` | `/admin` – password-protected lead list, status updates, CSV export, delete |
-| `migrations/0001_create_leads.sql` | Database schema |
+| `server/trips/admin.js` | `/admin/trips` – booked trips, couples, personal links, guest list export, data deletion |
+| `server/trips/couple.js` | `/c/<token>` – each couple's personal details form |
+| `server/lib/` | Shared HTML helpers, encryption, database schema |
+| `migrations/` | Database schema (also created automatically by the Worker) |
 
 ## One-time setup (Cloudflare dashboard)
 
@@ -23,7 +26,9 @@ Private villa journeys across Europe. A single-page website plus a small lead da
    - Build command: `npm run build`
    - Deploy command: `npx wrangler deploy`
    On the first deploy Wrangler creates the `eagleseurope-leads` D1 database automatically, and the Worker creates the `leads` table on first use.
-2. **Admin password:** Worker → Settings → Variables and secrets → add `ADMIN_USER` and `ADMIN_PASSWORD` (12+ characters, type *Secret*).
+2. **Secrets:** Worker → Settings → Variables and secrets → add, as type *Secret*:
+   - `ADMIN_USER` and `ADMIN_PASSWORD` (12+ characters)
+   - `DATA_KEY` – the encryption key for passport numbers and dates of birth. Open `/admin/trips` once and it shows a freshly generated key to copy. **Keep a copy in a password manager: if it is lost, encrypted data cannot be recovered.**
 3. **Custom domain:** Worker → Settings → Domains & Routes → Add → Custom domain → `eagleseurope.com`, then `www.eagleseurope.com`.
 4. **Recommended:**
    - Security → WAF → Rate limiting rule: path `/api/enquiry`, e.g. 5 requests per minute per IP → Block.
@@ -58,11 +63,22 @@ Push to `main` and Cloudflare builds and deploys automatically.
 - **Delete** removes a lead permanently – use it for GDPR erasure requests.
 - Stored per lead: name, email, phone, preference, group size, destination, dates, note, consent time and consent wording. No IP addresses or tracking data.
 
+## Trips (booked groups)
+
+1. A lead books → in **Leads** click *Create trip* (or create one in **Trips**). The lead is marked *booked*.
+2. Add each couple (names, email, WhatsApp number). Each couple gets a personal link `/c/<token>`; send it with the *WhatsApp* or *email* button.
+3. Each couple fills in: both guests' names as on the passport, date of birth, nationality, passport number and expiry, diets/allergies, flights, celebrations and kitchen wishes. They can return to the same link to update.
+4. The trip page shows who has replied. *Download guest list (CSV)* gives the full list for villa / police registration, the chef and drivers.
+5. After the trip, click **Delete guests' personal details** (GDPR: keep personal data only as long as needed).
+
+Passport numbers and dates of birth are encrypted (AES-256-GCM) with `DATA_KEY`; on screen passports are masked, full values only appear in the CSV export.
+
 ## Before launch – checklist
 
 - [ ] Download the photos and films and serve them from this site instead of Unsplash / Pexels / Mixkit (GDPR: no visitor IPs sent to third parties). Check each Mixkit clip's licence label.
 - [ ] Write `/privacy`, `/terms`, `/legal-notice`, `/accessibility` pages and fill in company details in the footer.
 - [ ] Replace the remaining `[placeholders]` (founders' story, phone, Instagram).
+- [ ] State in the privacy policy which guest details you collect, why (registration with the villa / authorities, transfers, meals), who receives them and when they are deleted.
 - [ ] Decide on a retention period for leads (e.g. delete after 24 months without booking) and state it in the privacy policy.
 
 ## Credits
