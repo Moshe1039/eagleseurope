@@ -6,10 +6,12 @@ Private villa journeys across Europe. A single-page website plus a small lead da
 
 | Path | What it is |
 |---|---|
-| `public/index.html` | The built website (fonts embedded, no third-party scripts) |
-| `public/_headers` | Security headers (HSTS, X-Frame-Options, nosniff, Referrer-Policy, Permissions-Policy) |
-| `src/template.html`, `src/script.js` | Source of the page – edit these, then run `npm run build` |
-| `scripts/build.py` | Builds `public/index.html`, embeds fonts, computes the CSP script hash |
+| `public/` | The built site – **generated, do not edit by hand** |
+| `src/home.html` | Home page content |
+| `src/countries.py` | Content of the destination pages (`/luxury-villas/<country>/`) |
+| `src/faq.json` | Home page FAQ (also published as FAQPage structured data) |
+| `src/styles.css`, `src/site.js` | Shared styles and script |
+| `scripts/build.py` | Builds every page, embeds fonts, writes hashed assets, `sitemap.xml` and `robots.txt` |
 | `server/worker.js` | Worker entry: routes `/api/enquiry` and `/admin`, everything else is served from `public/` |
 | `server/api/enquiry.js` | `POST /api/enquiry` – validates the form and saves the lead to D1 |
 | `server/admin/*` | `/admin` – password-protected lead list, status updates, CSV export, delete |
@@ -32,14 +34,21 @@ Private villa journeys across Europe. A single-page website plus a small lead da
 
 ```bash
 npm install          # fonts + wrangler
-# edit src/template.html or src/script.js
-npm run build        # regenerates public/index.html (and the CSP hash)
+# edit files in src/
+npm run build        # regenerates everything in public/
 npm run dev          # local preview with the Worker + local D1 at http://localhost:8787
 ```
 
 For local admin access, copy `.dev.vars.example` to `.dev.vars`.
 
 Push to `main` and Cloudflare builds and deploys automatically.
+
+## SEO
+
+- Every page has its own title, meta description, canonical URL, Open Graph tags and one H1.
+- Structured data: `TravelAgency`, `WebSite` and `FAQPage` on the home page; `BreadcrumbList` and `FAQPage` on each destination page.
+- `sitemap.xml` and `robots.txt` are generated on every build (`/admin` and `/api/` are excluded).
+- After the domain is live: add `eagleseurope.com` in Google Search Console and Bing Webmaster Tools and submit `https://eagleseurope.com/sitemap.xml`.
 
 ## Leads
 

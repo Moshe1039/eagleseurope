@@ -17,14 +17,14 @@ document.documentElement.classList.add('js');
   document.getElementById('nav-links').addEventListener('click', function(e){ if(e.target.closest('a')) closeMenu(); });
   document.addEventListener('keydown', function(e){ if(e.key === 'Escape' && nav.classList.contains('open')){ closeMenu(); menuBtn.focus(); } });
 
-  // ---------- Reveal ----------
-  var els = document.querySelectorAll('.reveal');
-  if(reduce || !('IntersectionObserver' in window)){ els.forEach(function(e){ e.classList.add('in'); }); }
-  else {
+  // ---------- Reveal (only elements still below the fold are hidden, so nothing flashes) ----------
+  if(!reduce && 'IntersectionObserver' in window){
     var io = new IntersectionObserver(function(entries){
-      entries.forEach(function(en){ if(en.isIntersecting){ en.target.classList.add('in'); io.unobserve(en.target); } });
+      entries.forEach(function(en){ if(en.isIntersecting){ en.target.classList.remove('pending'); io.unobserve(en.target); } });
     }, {threshold: .12});
-    els.forEach(function(e){ io.observe(e); });
+    document.querySelectorAll('.reveal').forEach(function(el){
+      if(el.getBoundingClientRect().top > window.innerHeight){ el.classList.add('pending'); io.observe(el); }
+    });
   }
 
   // ---------- Film player: plays clips in sequence with a crossfade ----------
@@ -64,8 +64,10 @@ document.documentElement.classList.add('js');
     { src: mix(8675) },
     { src: mix(44912) }
   ];
-  var hero = Film(document.getElementById('hero-media'), heroClips, document.getElementById('hero-toggle'));
-  if(reduce){ hero.setPaused(true); } else { hero.start(0); }
+  if(document.getElementById('hero-media')){
+    var hero = Film(document.getElementById('hero-media'), heroClips, document.getElementById('hero-toggle'));
+    if(reduce){ hero.setPaused(true); } else { hero.start(0); }
+  }
 
   // A day with us
   var dayClips = [
@@ -76,6 +78,7 @@ document.documentElement.classList.add('js');
     { t:'19:00', title:'The first glass',        src: mix(41257) },
     { t:'21:00', title:'Dinner with friends',    src: mix(45727) }
   ];
+  if(document.getElementById('day-player')){
   var chapterBtns = document.querySelectorAll('#day-chapters button');
   var day = Film(document.getElementById('day-player'), dayClips, document.getElementById('day-toggle'), function(i){
     document.getElementById('day-time').textContent = dayClips[i].t;
@@ -90,13 +93,17 @@ document.documentElement.classList.add('js');
       entries.forEach(function(en){ if(en.isIntersecting && !dayStarted){ dayStarted = true; day.start(0); obs.disconnect(); } });
     }, {threshold: .25}).observe(document.getElementById('day-player'));
   } else { day.start(0); }
+  }
 
   // ---------- Form ----------
+  var form = document.getElementById('enquiry');
+  if(!form) return;
+  var destParam = new URLSearchParams(location.search).get('dest');
+  if(destParam){ var sel = document.getElementById('f-where'); for(var k = 0; k < sel.options.length; k++){ if(sel.options[k].text === destParam){ sel.value = destParam; } } }
   function updateBtn(){ document.getElementById('submit-btn').textContent = document.getElementById('pref-call').checked ? 'Book a call' : 'Request information'; }
   document.querySelectorAll('input[name="pref"]').forEach(function(r){ r.addEventListener('change', updateBtn); });
   document.querySelectorAll('[data-call]').forEach(function(a){ a.addEventListener('click', function(){ document.getElementById('pref-call').checked = true; updateBtn(); }); });
 
-  var form = document.getElementById('enquiry');
   function setErr(input, errId, msg){
     input.setAttribute('aria-invalid', msg ? 'true' : 'false');
     document.getElementById(errId).textContent = msg;
