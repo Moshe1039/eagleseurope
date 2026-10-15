@@ -1,6 +1,6 @@
 # Eagle's Europe – eagleseurope.com
 
-Private villa journeys across Europe. A single-page website plus a small lead database, hosted on **Cloudflare Pages** with **Cloudflare D1** (SQLite).
+Private villa journeys across Europe. A single-page website plus a small lead database, running as a **Cloudflare Worker** (static assets) with **Cloudflare D1** (SQLite).
 
 ## What's inside
 
@@ -10,26 +10,20 @@ Private villa journeys across Europe. A single-page website plus a small lead da
 | `public/_headers` | Security headers (HSTS, X-Frame-Options, nosniff, Referrer-Policy, Permissions-Policy) |
 | `src/template.html`, `src/script.js` | Source of the page – edit these, then run `npm run build` |
 | `scripts/build.py` | Builds `public/index.html`, embeds fonts, computes the CSP script hash |
-| `functions/api/enquiry.js` | `POST /api/enquiry` – validates the form and saves the lead to D1 |
-| `functions/admin/*` | `/admin` – password-protected lead list, status updates, CSV export, delete |
+| `server/worker.js` | Worker entry: routes `/api/enquiry` and `/admin`, everything else is served from `public/` |
+| `server/api/enquiry.js` | `POST /api/enquiry` – validates the form and saves the lead to D1 |
+| `server/admin/*` | `/admin` – password-protected lead list, status updates, CSV export, delete |
 | `migrations/0001_create_leads.sql` | Database schema |
 
-## One-time setup
+## One-time setup (Cloudflare dashboard)
 
-1. **Create the database** (stored in the EU):
-   ```bash
-   npm install
-   npx wrangler login
-   npx wrangler d1 create eagleseurope-leads --location=weur --jurisdiction=eu
-   ```
-   Copy the printed `database_id` into `wrangler.toml`, commit and push.
-2. **Create the tables:** `npm run db:migrate:remote`
-3. **Connect the repo to Cloudflare Pages:** Workers & Pages → Create → Pages → *Connect to Git* → choose this repo.
-   - Build command: *(leave empty)* – `public/` is already built
-   - Build output directory: `public`
-4. **Admin password:** Pages project → Settings → Variables and secrets → add `ADMIN_USER` and `ADMIN_PASSWORD` (12+ characters, type *Secret*). Redeploy.
-5. **Custom domain:** Pages project → Custom domains → add `eagleseurope.com` and `www.eagleseurope.com`.
-6. **Recommended:**
+1. **Workers & Pages → Create → Import a repository** → choose this repo.
+   - Build command: `npm run build`
+   - Deploy command: `npx wrangler deploy`
+   On the first deploy Wrangler creates the `eagleseurope-leads` D1 database automatically, and the Worker creates the `leads` table on first use.
+2. **Admin password:** Worker → Settings → Variables and secrets → add `ADMIN_USER` and `ADMIN_PASSWORD` (12+ characters, type *Secret*).
+3. **Custom domain:** Worker → Settings → Domains & Routes → Add → Custom domain → `eagleseurope.com`, then `www.eagleseurope.com`.
+4. **Recommended:**
    - Security → WAF → Rate limiting rule: path `/api/enquiry`, e.g. 5 requests per minute per IP → Block.
    - Zero Trust → Access → protect `eagleseurope.com/admin*` with email one-time codes for the team.
    - SSL/TLS → Edge Certificates → *Always Use HTTPS* on.
@@ -40,12 +34,12 @@ Private villa journeys across Europe. A single-page website plus a small lead da
 npm install          # fonts + wrangler
 # edit src/template.html or src/script.js
 npm run build        # regenerates public/index.html (and the CSP hash)
-npm run dev          # local preview with Functions + local D1 at http://localhost:8788
+npm run dev          # local preview with the Worker + local D1 at http://localhost:8787
 ```
 
-For local admin access, copy `.dev.vars.example` to `.dev.vars` and run `npm run db:migrate:local` once.
+For local admin access, copy `.dev.vars.example` to `.dev.vars`.
 
-Push to `main` and Cloudflare Pages deploys automatically.
+Push to `main` and Cloudflare builds and deploys automatically.
 
 ## Leads
 

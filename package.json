@@ -1,12 +1,11 @@
 {
   "name": "eagleseurope",
   "private": true,
-  "description": "Eagle's Europe – website and lead database (Cloudflare Pages + D1)",
+  "description": "Eagle's Europe – website and lead database (Cloudflare Workers + D1)",
   "scripts": {
     "build": "python3 scripts/build.py",
-    "db:migrate:local": "wrangler d1 migrations apply eagleseurope-leads --local",
-    "db:migrate:remote": "wrangler d1 migrations apply eagleseurope-leads --remote",
-    "dev": "npm run build && wrangler pages dev public"
+    "dev": "npm run build && wrangler dev",
+    "deploy": "npm run build && wrangler deploy"
   },
   "dependencies": {
     "@fontsource/cormorant-garamond": "^5.2.0",
