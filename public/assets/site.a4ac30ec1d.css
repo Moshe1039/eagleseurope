@@ -215,7 +215,8 @@ footer .legal{margin:0;color:#8E9A9E;font-size:13px}
 .page-hero .wrap{position:relative;z-index:1;padding-block:150px 72px;width:100%}
 .page-hero h1{font-size:clamp(42px,6vw,88px);line-height:1;max-width:980px}
 .page-hero .lead{margin:24px 0 0;font-size:clamp(17px,1.5vw,20px);max-width:640px;color:#E6ECEE}
-.crumbs{margin:0 0 24px;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:8px;font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:#E6ECEE}
+.crumbs{margin:0 0 24px;padding:0;list-style:none;display:flex;flex-wrap:wrap;align-items:center;gap:8px;font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:#E6ECEE}
+.crumbs li{display:flex;align-items:center}
 .crumbs li+li::before{content:"/";margin-right:8px;color:var(--gold)}
 .crumbs a{text-decoration:none;display:inline-flex;align-items:center;min-height:44px}
 .crumbs a:hover{color:var(--gold)}
@@ -237,3 +238,24 @@ footer .legal{margin:0;color:#8E9A9E;font-size:13px}
 .other-dest a{display:inline-flex;align-items:center;min-height:44px;color:var(--gold-dark);text-decoration:underline;text-underline-offset:4px}
 footer .dest-links{list-style:none;margin:0 0 24px;padding:0;display:flex;flex-wrap:wrap;gap:4px 22px}
 footer .dest-links a{display:inline-flex;align-items:center;min-height:44px}
+
+/* LEGAL PAGES */
+.legal-hero{background:var(--ink);color:var(--stone);padding-block:150px 64px}
+.legal-hero h1{font-size:clamp(40px,5vw,72px);line-height:1}
+.legal-hero .lead{margin:20px 0 0;color:#B9C2C4;max-width:640px}
+.legal-body{padding-block:64px 110px;background:var(--paper)}
+.prose{max-width:calc(820px + 2 * var(--pad))}
+.prose h2{font-size:clamp(28px,3vw,38px);line-height:1.15;margin:56px 0 16px;scroll-margin-top:96px}
+.prose h3{font:500 22px/1.3 var(--serif);margin:28px 0 8px}
+.prose p,.prose li{color:#3A4144}
+.prose ul,.prose ol{padding-left:22px}
+.prose li{margin-bottom:8px}
+.prose a{color:var(--gold-dark);text-underline-offset:3px}
+.toc{border:1px solid var(--line);background:#fff;padding:24px 28px;margin-bottom:24px}
+.toc h2{margin:0 0 12px;font-size:26px}
+.toc ol{margin:0;columns:2 260px}
+.toc a{display:inline-flex;min-height:32px;align-items:center}
+.table-wrap{overflow-x:auto;border:1px solid var(--line);background:#fff;margin:16px 0}
+.prose table{border-collapse:collapse;width:100%;min-width:560px}
+.prose th,.prose td{padding:12px 14px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top;font-size:15px}
+.prose th{background:var(--stone);font-weight:500}

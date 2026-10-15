@@ -53,7 +53,7 @@ function form(c, people, errors = [], values = null) {
       <p style="margin-bottom:0"><label for="no">Anything else we should know?</label><textarea id="no" name="notes">${v("notes", c.notes)}</textarea></p>
     </fieldset>
     <p><label style="display:flex;gap:10px;align-items:flex-start;font-weight:400"><input type="checkbox" name="consent" value="yes" required style="width:20px;min-height:20px;margin-top:3px">
-      <span>We agree that Eagle's may use these details to organise our trip and share what is needed with the villa, drivers and chef, as described in the <a href="/privacy">privacy policy</a>. Details are deleted after the trip.</span></label></p>
+      <span>We agree that Eagle's may use these details, including any allergies or dietary needs, to organise our trip and share what is needed with the villa, drivers and chef, as described in the <a href="/privacy">privacy policy</a>. Details are deleted within 30 days after the trip.</span></label></p>
     <p><button class="btn" type="submit">Send our details</button></p>
   </form>`);
 }

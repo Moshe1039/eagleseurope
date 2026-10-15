@@ -295,6 +295,14 @@ def main():
             schemas=(crumbs, faq_schema(c["faq"])), **common))
         urls.append((SITE + path, "0.8"))
 
+    # Legal pages
+    privacy = read("pages/privacy.html").replace("__UPDATED__", datetime.date.today().strftime("%-d %B %Y"))
+    write("privacy.html", layout(
+        title="Privacy Policy | Eagle's Europe",
+        desc="How Eagle's Europe collects, uses and protects personal data for enquiries and villa holidays, and your rights under the GDPR.",
+        path="/privacy", main=privacy, **common))
+    urls.append((SITE + "/privacy", "0.3"))
+
     # 404
     write("404.html", layout(
         title="Page not found | Eagle's Europe", desc="This page does not exist.", path="/404",
