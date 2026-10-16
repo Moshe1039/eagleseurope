@@ -304,6 +304,13 @@ def main():
         path="/privacy", main=privacy, **common))
     urls.append((SITE + "/privacy", "0.3"))
 
+    terms = read("pages/terms.html").replace("__UPDATED__", datetime.date.today().strftime("%-d %B %Y"))
+    write("terms.html", layout(
+        title="Booking Terms: Payment & Cancellation | Eagle's Europe",
+        desc="How payment works for an Eagle's villa holiday: deposit, balance, ways to pay as a group, and our cancellation terms.",
+        path="/terms", main=terms, **common))
+    urls.append((SITE + "/terms", "0.3"))
+
     # 404
     write("404.html", layout(
         title="Page not found | Eagle's Europe", desc="This page does not exist.", path="/404",

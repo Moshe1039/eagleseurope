@@ -28,10 +28,11 @@ document.documentElement.classList.add('js');
   }
 
   // ---------- Film player: plays clips in sequence with a crossfade ----------
-  function Film(container, clips, toggleBtn, onChange){
+  function Film(container, clips, toggleBtn, onChange, rate){
     var vids = container.querySelectorAll('video.film'), cur = 0, idx = 0, paused = false;
     function load(v, clip){
       while(v.firstChild) v.removeChild(v.firstChild);
+      v.defaultPlaybackRate = rate || 1; v.playbackRate = rate || 1;
       clip.src.forEach(function(u){ var s = document.createElement('source'); s.src = u; s.type = 'video/mp4'; v.appendChild(s); });
       v.load();
     }
@@ -65,7 +66,8 @@ document.documentElement.classList.add('js');
     { src: mix(44912) }
   ];
   if(document.getElementById('hero-media')){
-    var hero = Film(document.getElementById('hero-media'), heroClips, document.getElementById('hero-toggle'));
+    // Played at half speed so the background stays calm behind the headline.
+    var hero = Film(document.getElementById('hero-media'), heroClips, document.getElementById('hero-toggle'), null, 0.5);
     if(reduce){ hero.setPaused(true); } else { hero.start(0); }
   }
 

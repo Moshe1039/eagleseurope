@@ -59,7 +59,8 @@ section{scroll-margin-top:84px}
 .hero-media{position:absolute;inset:0;background:var(--sea) center/cover no-repeat}
 .film{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity 1.6s ease}
 .film.on{opacity:1}
-.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(17,24,27,.5) 0%,rgba(17,24,27,.08) 35%,rgba(17,24,27,.75) 100%);pointer-events:none}
+.hero .film{transition:opacity 3s ease}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(17,24,27,.55) 0%,rgba(17,24,27,.3) 35%,rgba(17,24,27,.78) 100%);pointer-events:none}
 .hero-content{position:relative;z-index:1;padding-block:150px 130px;width:100%}
 .hero .hero-title{margin:0;font:400 clamp(48px,8vw,124px)/.96 var(--serif);letter-spacing:-.01em;max-width:1000px}
 h1.eyebrow{font-family:var(--sans);line-height:1.6}
@@ -243,6 +244,8 @@ footer .dest-links a{display:inline-flex;align-items:center;min-height:44px}
 /* LEGAL PAGES */
 .legal-hero{background:var(--ink);color:var(--stone);padding-block:150px 64px}
 .legal-hero h1{font-size:clamp(40px,5vw,72px);line-height:1}
+.legal-hero .crumbs li,.legal-hero .crumbs a{color:#E6ECEE}
+.legal-hero .crumbs a:hover{color:var(--gold)}
 .legal-hero .lead{margin:20px 0 0;color:#B9C2C4;max-width:640px}
 .legal-body{padding-block:64px 110px;background:var(--paper)}
 .prose{max-width:calc(820px + 2 * var(--pad))}
