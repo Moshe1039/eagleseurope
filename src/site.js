@@ -76,7 +76,7 @@ document.documentElement.classList.add('js');
     { t:'13:00', title:'Lunch among the olives', src: mix(22430) },
     { t:'16:00', title:'Nowhere to be',          src: mix(47286) },
     { t:'19:00', title:'The first glass',        src: mix(41257) },
-    { t:'21:00', title:'Dinner with friends',    src: mix(45727) }
+    { t:'21:00', title:'Dinner with friends',    src: mix(13261) }
   ];
   if(document.getElementById('day-player')){
   var chapterBtns = document.querySelectorAll('#day-chapters button');

@@ -77,7 +77,7 @@ Passport numbers and dates of birth are encrypted (AES-256-GCM) with `DATA_KEY`;
 
 - [ ] Download the photos and films and serve them from this site instead of Unsplash / Pexels / Mixkit (GDPR: no visitor IPs sent to third parties). Check each Mixkit clip's licence label.
 - [ ] Write `/privacy`, `/terms`, `/legal-notice`, `/accessibility` pages and fill in company details in the footer.
-- [ ] Replace the remaining `[placeholders]` (founders' story, phone, Instagram).
+- [ ] Replace the remaining `[placeholders]` (company details in the footer and privacy policy).
 - [ ] State in the privacy policy which guest details you collect, why (registration with the villa / authorities, transfers, meals), who receives them and when they are deleted.
 - [ ] Decide on a retention period for leads (e.g. delete after 24 months without booking) and state it in the privacy policy.
 

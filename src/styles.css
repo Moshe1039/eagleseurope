@@ -148,7 +148,8 @@ h1.eyebrow{font-family:var(--sans);line-height:1.6}
 .story .wrap{position:relative;z-index:1}
 .story blockquote{margin:0;max-width:900px;font:400 clamp(32px,4vw,56px)/1.15 var(--serif)}
 .story blockquote em{font-style:italic;color:var(--gold)}
-.story p{margin:32px 0 0;max-width:640px;font-size:18px;color:#E6ECEE}
+.story p{margin:24px 0 0;max-width:680px;font-size:18px;color:#E6ECEE}
+.story blockquote+p{margin-top:36px}
 
 /* CONTACT */
 .contact{background:var(--sea);color:var(--stone);padding-block:clamp(90px,10vw,150px)}
@@ -253,3 +254,9 @@ footer .dest-links a{display:inline-flex;align-items:center;min-height:44px}
 .prose table{border-collapse:collapse;width:100%;min-width:560px}
 .prose th,.prose td{padding:12px 14px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top;font-size:15px}
 .prose th{background:var(--stone);font-weight:500}
+
+/* WHATSAPP BUTTON */
+.wa-float{position:fixed;right:20px;bottom:20px;z-index:40;display:inline-flex;align-items:center;gap:10px;min-height:52px;padding:0 20px 0 16px;background:#1F6F4A;color:#fff;text-decoration:none;font:400 14px/1 var(--sans);letter-spacing:.06em;box-shadow:0 6px 24px rgba(0,0,0,.25);border-radius:999px}
+.wa-float:hover{background:#185A3C}
+.wa-float svg{width:22px;height:22px;flex:none}
+@media (max-width:560px){.wa-float span{display:none}.wa-float{padding:0 15px}}
