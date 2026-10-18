@@ -52,9 +52,11 @@ status: pending_build_check
 ---
 ```
 
-Then: **run `npm run build` yourself** (from the repo root, one level up) before calling this
-done. If it fails, your edit broke something — fix it or revert it immediately; never hand a
-broken build to the checker. If it succeeds, update the draft file's `status` to
+Then: **run `npm install && npm run build` yourself** (from the repo root, one level up) before
+calling this done — `node_modules` is gitignored, so in a fresh checkout it won't exist yet and
+a bare `npm run build` will fail for a reason that has nothing to do with your edit; always
+install first. If the build still fails after that, your edit broke something — fix it or
+revert it immediately; never hand a broken build to the checker. If it succeeds, update the draft file's `status` to
 `pending_checker_review` and update the topic-map entry's status to `drafted`.
 
 ## What you never do

@@ -33,9 +33,10 @@ and don't skip any of its five sections.
    `regions`, `faq`, or `intro` entries. If it touches anything else — a new top-level key,
    any file outside `src/countries.py`, especially `server/`, `wrangler.toml`, or `build.py` —
    reject immediately, regardless of how good the content is.
-2. Run `npm run build` yourself (repo root) and confirm it exits with no errors, even if the
-   writer already reported success — verify it yourself, don't trust a reported result. A
-   failed build is an automatic rejection.
+2. Run `npm install && npm run build` yourself (repo root — `node_modules` is gitignored, so
+   install first every time) and confirm it exits with no errors, even if the writer already
+   reported success — verify it yourself, don't trust a reported result. A failed build is an
+   automatic rejection.
 
 ## What to check in the content itself, in order
 
