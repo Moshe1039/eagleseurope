@@ -27,6 +27,7 @@ COUNTRIES = [
         "faq": [
             ("Can we rent a villa in Tuscany with a private chef?", "Yes. Every Eagle's villa in Tuscany includes a private chef for breakfast and dinner, plus housekeeping, transfers and a host. One evening can become a hands-on pasta workshop with the chef."),
             ("Which region of Italy is best for a group of friends?", "Tuscany and Puglia have the most spacious villas for groups of several couples. The Amalfi Coast and Lake Como suit smaller groups who want a view and a sense of occasion."),
+            ("Can one couple organise a multi-couple trip to Puglia without chasing everyone for money?", "Yes. Eagle's Europe runs on one all-inclusive price per person for the whole group, so there is no line-item splitting between couples. Each couple pays its own share directly, a deposit to confirm and the balance before arrival, so the organising couple never has to collect money from friends."),
         ],
     },
     {
