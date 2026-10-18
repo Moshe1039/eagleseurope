@@ -28,6 +28,15 @@ Entries are ordered by priority — take the top `not started` entry next.
 
 ## One Price, Six Experiences: A Multi-Couple Puglia Escape
 
+**Correction (2026-10-18, same day):** this entry originally proposed a standalone landing page,
+written before the researcher had confirmed the real site structure. Puglia already has its own
+page — it's a region inside `/luxury-villas/italy/`, defined in `src/countries.py`. The
+underlying research (organizer pain point, no-competitor-combines-this-angle gap) was still
+real and used, just integrated correctly: as a new FAQ entry on Italy's existing page instead of
+a new page. See the `[PUBLISHED TO PRODUCTION]` commit on `main` from today. The original draft
+at `drafts/pages/puglia-multi-couple-escape.md` is kept for the record but superseded — don't
+act on it as if it's still pending.
+
 - Target audience: B2C
 - Why this topic: Searches around "Puglia villa group" return almost exclusively per-villa
   rental listings (wanderlustchloe.com, agriturismo.net, wheretostay.com) quoting nightly rates
@@ -38,8 +47,9 @@ Entries are ordered by priority — take the top `not started` entry next.
   group of couples. This is the clearest whitespace of the four destinations: high query
   specificity ("group-friendly accommodations Puglia", "Puglia villa sleeps 18") shows real
   organizer intent, but the all-inclusive/pick-your-experiences angle is unaddressed.
-- Suggested page type: landing page
-- Status: drafted (see `drafts/pages/puglia-multi-couple-escape.md`, checker-approved 2026-10-18)
+- Suggested page type: ~~landing page~~ — corrected to: new FAQ entry on the existing Italy page
+- Status: **published** — as an Italy FAQ entry, not the standalone page originally planned
+  (see correction note above and `src/countries.py`'s Italy `faq` list)
 
 ## Planning a Multi-Couple Tuscany Trip Without the Group-Chat Chaos
 

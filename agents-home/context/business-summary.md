@@ -15,10 +15,28 @@ now is **one paying deal**, not growth, not scale, not brand-building.
   couples or nights.
 - Payment: 30% deposit, balance due 60 days before arrival. Each couple pays its own share.
 
-## Destinations
+## Destinations — the real site structure (correct this if it's ever wrong, don't guess)
 
-Current regions: Tuscany, Puglia, Algarve, Crete. Research and content should be grounded in
-these — don't propose or write about a region that isn't on this list without checking first.
+The live site is organized by **country**, one page per country at `/luxury-villas/<slug>/`,
+defined in `../src/countries.py` (relative to this file: the website repo root's `src/`
+directory, a sibling of `agents-home/`). Each country page already contains several named
+**regions** as a sub-section, each with its own short description, plus a short FAQ list per
+country. This is a real content-level data structure (a Python list of dicts), not a rendering
+template you can invent new routes inside.
+
+**9 countries already live**, each already populated: Italy, France, Spain, Portugal, Greece,
+Croatia, Switzerland, Austria, Germany. Tuscany and Puglia are regions inside Italy's page.
+Algarve is a region inside Portugal's page. Crete is a region inside Greece's page. All four
+already have baseline copy and at least one FAQ entry before any agent touches anything.
+
+**What this means for research and content work:** there is no "write a new page about Puglia"
+task — Puglia's page already exists, as part of Italy's. The real opportunities are (a) new FAQ
+entries on an existing country's page that address a real, researched gap (an organizer pain
+point, a specific high-intent query competitors don't answer), or (b) enriching an existing
+region's description or a country's `intro` paragraphs with grounded specifics. Always inspect
+`../src/countries.py` directly (`Read`/`Grep` the actual file — it's local, no network/WebFetch
+needed and nothing to guess about) before proposing anything, to see exactly what already exists
+per country so nothing gets duplicated.
 
 ## Audiences
 
@@ -38,9 +56,13 @@ roughly ₪200,000.
 
 - **eagleseurope.com** — live today, in English, with a working landing page and lead form.
   This is the real site visitors land on.
-- The **`eagleseurope`** GitHub repo on Cloudflare is the *website's* repo. It is a different
-  repo from this one (the agents' home). Nothing in this project pushes to it directly — any
-  proposed site change goes to the human for approval first.
+- The **`eagleseurope`** GitHub repo on Cloudflare is the *website's* repo, and `agents-home/`
+  (this folder) now lives inside it, on `main`. **Pushing to `main` auto-deploys to production
+  immediately** — there is no staging step. Per explicit instruction, approved content changes
+  (new FAQ entries, region-copy enrichments) are committed and pushed straight to `main` once
+  the mandatory build check passes and the checker approves — see `context/permissions.md` for
+  the exact gate. This only applies to content-level data in `src/countries.py`; nothing here
+  authorizes editing `server/`, `wrangler.toml`, routing, or any other code.
 - Pilot target date: May 2027.
 
 ## What counts as "the first deal" — and what doesn't

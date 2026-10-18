@@ -1,10 +1,11 @@
 # Eagle's Europe — agents' home
 
-This repo is the home for the Claude Code agents working toward Eagle's Europe's first paying
-deal. **It is not the website.** The live site is eagleseurope.com, backed by a separate
-`eagleseurope` GitHub repo (github.com/Moshe1039/eagleseurope) deployed on Cloudflare Workers —
-this project never pushes to that repo directly; any proposed site change is made on a local
-clone/branch and the human reviews and pushes it themselves.
+This folder lives inside the website's own repo now (`eagleseurope`, on `main`) so the daily
+routine can work against the real site directly. **It is still not the website itself** — the
+site is `../src`, `../server`, `../public`, etc., one level up. One narrow path is allowed to
+push straight to `main` (a `src/countries.py` content edit, gated by a clean build + checker
+approval — see `context/permissions.md`, "Publishing to production"). Nothing else touches the
+live repo without a human doing it.
 
 Cloudflare account ID and worker name are in `.env.example` — copy to `.env` (gitignored) and
 fill in a real, scoped-read-only API token to pull observability/analytics data. Never put the
@@ -21,11 +22,13 @@ terms & deal, customer research & calls (wait on real leads existing). The trigg
 these: the first real form submission landing in `pipeline/leads.csv`, and progress on the
 decision gate below. The morning-briefing skill flags this automatically — don't guess at it.
 
-## The iron rule
+## The iron rule — and its one gated exception
 
-An agent prepares, a human approves and sends. Full table: `context/permissions.md`. In short:
-no agent sends a customer/owner-facing message, sets a price or term, or commits a site change
-without a human doing that step.
+An agent prepares, a human approves and sends. Full table: `context/permissions.md`. No agent
+sends a customer/owner-facing message, sets a price or term, or touches site code outside
+`src/countries.py`. The one exception: a `src/countries.py` content edit can publish straight to
+`main` once the build-gate and checker both pass — see "Publishing to production" in
+`context/permissions.md` for exactly what that requires and how it's flagged afterward.
 
 ## Where things live
 
@@ -36,7 +39,8 @@ without a human doing that step.
 - `context/permissions.md` — the human-control table, and permission-mode guidance.
 - `research/topic-map.md` — the researcher's output; the only valid source of topics for the
   content-writer.
-- `drafts/pages/` — the writer's output, pending checker review and human approval.
+- `drafts/pages/` — the writer's audit-trail record of what it added to `src/countries.py` and
+  why (the real edit lands in `src/countries.py` directly, not here).
 - `pipeline/leads.csv` — the lead/deal tracker. **The live site's own admin panel
   (`eagleseurope.com/admin`, CSV export at `/admin/leads.csv`) is the authoritative source** —
   this file is a manual mirror until an admin-credentialed sync is set up. Don't treat this file

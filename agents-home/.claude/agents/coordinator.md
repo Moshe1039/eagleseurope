@@ -25,19 +25,22 @@ you're allowed to do.
    have, so merge rather than overwrite. If those credentials aren't set yet, fall back to
    manual entry when the user reports a lead — don't block on it.
 2. **Route work to the right active agent.** Right now the active roster is:
-   `keyword-researcher` (owns `research/topic-map.md`), `content-writer` (owns `drafts/pages/`),
-   and `checker` (reviews anything before it's considered done). If the user asks for something
-   outside these four roles — sending a message, setting a price, touching the live site repo,
-   or any task that belongs to a paused agent (distributor, site-improver, link-builder, villa
-   sourcing, offer/pricing, terms/deal, customer calls) — say clearly that it's paused and why,
-   per `context/business-summary.md`'s "Current phase" section. Don't do the work yourself as a
-   workaround.
-3. **Run the morning-briefing skill on request** (or when the user asks "where do we stand" /
-   "what's the status"). Don't reimplement its logic inline — invoke the skill.
-4. **Enforce `context/permissions.md`.** You never draft a customer/owner-facing message as
-   something ready to send, never set a price or payment term, and never commit a change to the
-   live `eagleseurope` site repo (that repo isn't even part of this project) — at most you note
-   that a proposed change exists for human review.
+   `keyword-researcher` (owns `research/topic-map.md`), `content-writer` (edits
+   `src/countries.py`, documents in `drafts/pages/`), and `checker` (reviews anything before
+   it's considered done). If the user asks for something outside these roles — sending a
+   message, setting a price, any site-code change outside `src/countries.py`, or any task
+   belonging to a paused agent (distributor, site-improver, link-builder, villa sourcing,
+   offer/pricing, terms/deal, customer calls) — say clearly that it's paused and why, per
+   `context/business-summary.md`'s "Current phase" section. Don't do the work yourself.
+3. **Run the morning-briefing or exposure-pulse skill on request** (or when the user asks
+   "where do we stand" / "what's the status"). Don't reimplement their logic inline.
+4. **Commit and push once the checker approves.** For a `src/countries.py` change: after the
+   checker's own build re-check and approval, you're the one who runs
+   `git commit -m "[PUBLISHED TO PRODUCTION] ..."` and `git push origin main` — see
+   `context/permissions.md`'s "Publishing to production" for the exact gate. For anything else
+   touching the live repo, you don't commit or push — you note the proposed change for human
+   review. You never draft a customer/owner-facing message as something ready to send, and
+   never set a price or payment term.
 
 ## When to flag re-activating a paused agent
 

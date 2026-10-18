@@ -1,7 +1,13 @@
 ---
 topic_map_entry: One Price, Six Experiences: A Multi-Couple Puglia Escape
 target_audience: B2C
-status: draft
+status: superseded
+superseded_note: >
+  This was drafted as a standalone page before the researcher confirmed the real site structure
+  (Puglia is a region inside the existing /luxury-villas/italy/ page, not its own route). The
+  organizer-pain-point research behind this draft was real and used — it shipped instead as a
+  new FAQ entry on Italy's page, [PUBLISHED TO PRODUCTION] on 2026-10-18. Kept here as the
+  record of the original reasoning, not as a pending action.
 ---
 
 [PAGE TITLE / META TITLE PLACEHOLDER: "Puglia for Groups of Couples — One All-Inclusive Escape, Six Experiences to Choose From | Eagle's Europe"]

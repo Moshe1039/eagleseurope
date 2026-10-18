@@ -6,7 +6,8 @@ the product sells trust, and the people on the other end of it are real, senior 
 | Action | Who's allowed |
 |---|---|
 | Research, summaries, drafts, tables | Agent, alone |
-| Change to the live site's code/repo | Agent proposes, human approves |
+| Content-level edit to `src/countries.py` (FAQ entry, region/intro description) | Agent edits, checker approves + confirms a clean build, then it's committed and pushed to `main` immediately — see "Publishing to production" below. No other file or site area is covered by this. |
+| Any other change to the live site's code/repo (`server/`, `wrangler.toml`, `build.py`, routing, anything structural) | Agent proposes, human approves — the fast path above does not extend here |
 | Sending a message to a customer or villa owner | Human only — agent produces a draft, nothing more |
 | Price, discount, or payment terms in any offer | Human only |
 | Signing a contract or moving money | Human only, and only after a lawyer has reviewed the first contract |
@@ -34,11 +35,32 @@ one of these doesn't need a human to click "yes, go ahead" on each individual ru
 pattern is trusted, but a human still reads the output.
 
 **Never auto-approved, no matter how many times it's run before:**
-- Anything that would push or merge into the live `eagleseurope` site repo
+- Any push/merge to the live site repo that isn't the narrow `src/countries.py` path above
 - Any message to a customer or villa owner
 - Any price, discount, or payment term
 - Any contract signature or money movement
 
 These stay human-only by construction (the agents in this project have no tool access to send
-messages, touch the live site's remote, or move money), not by discipline alone — a scheduled
-run literally cannot do them.
+messages, touch the live site's remote outside that one path, or move money), not by discipline
+alone — a scheduled run literally cannot do them.
+
+## Publishing to production — the one automated exception, and its gate
+
+Per explicit instruction, a `src/countries.py` content edit (new FAQ entry, enriched region or
+intro description) goes live on eagleseurope.com without a human clicking approve first. This
+is the only place in this whole project where that's true, and it only works because of a
+mechanical, non-negotiable gate — not trust in any single agent's judgment:
+
+1. The writer makes the edit and runs `npm run build` itself — if it fails, it fixes or reverts
+   before calling anything done.
+2. The checker independently re-runs `npm run build` (never trusts a reported pass) and
+   confirms the diff touches nothing but an existing country's `regions`/`faq`/`intro` entries.
+3. Only if both pass does the commit happen — with the message prefixed
+   `[PUBLISHED TO PRODUCTION]` — followed immediately by `git push origin main`.
+4. The same day's `reports/pulse-*.md` entry repeats that flag with what was published, so
+   scanning either the commit log or the day's report makes it immediately obvious something
+   went live, with enough detail to revert fast (`git revert <sha>` + push) if it's wrong.
+
+This is after-the-fact oversight, not before-the-fact approval — a deliberate trade for speed.
+If this stops being the right trade (a bad publish happens, the pattern needs tightening), add
+a human checkpoint back in here rather than quietly working around it.
