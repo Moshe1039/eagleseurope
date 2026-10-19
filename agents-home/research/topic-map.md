@@ -53,6 +53,13 @@ act on it as if it's still pending.
 
 ## Planning a Multi-Couple Tuscany Trip Without the Group-Chat Chaos
 
+**Correction (2026-10-19):** per `context/business-summary.md`'s real site structure, Tuscany is
+a region inside Italy's existing `/luxury-villas/italy/` page, not a standalone route — so this
+shipped as a new FAQ entry on Italy's page (bedroom/cost-dispute angle, distinct from the
+existing Puglia FAQ right above it, which covers "chasing everyone for money" rather than
+bedroom allocation), not the landing page originally suggested below. See
+`drafts/pages/tuscany-group-organizing-faq.md` for the full record.
+
 - Target audience: B2C
 - Why this topic: Competing results (villasofdistinction.com's "Couples/Groups" collection
   pages) explicitly acknowledge the organizer's pain point — avoiding disputes over bedrooms,
@@ -61,8 +68,10 @@ act on it as if it's still pending.
   framing of "cost-splitting" and "avoiding disputes" across multiple competitor snippets is a
   recurring pain signal strong enough to anchor a page that sells the *organizing experience*
   (one fixed price per person, no line-item haggling) rather than a villa spec sheet.
-- Suggested page type: landing page
-- Status: not started
+- Suggested page type: ~~landing page~~ — corrected to: new FAQ entry on the existing Italy page
+- Status: **published** — as an Italy FAQ entry (bedroom/cost-dispute angle), checker-approved
+  2026-10-19, see `drafts/pages/tuscany-group-organizing-faq.md` and the
+  `[PUBLISHED TO PRODUCTION]` commit on `main` from today.
 
 ## All-Inclusive, Without the Resort: An Algarve Villa Escape for Couples 40+
 
