@@ -101,6 +101,7 @@ COUNTRIES = [
         "faq": [
             ("Can we stay in a quinta in the Douro Valley?", "Yes. We arrange wine estates and villas in the Douro with a private chef and private tastings."),
             ("Is the Algarve good outside summer?", "Yes. Spring and autumn are warm and calm, with far fewer visitors."),
+            ("Is there an all-inclusive option in the Algarve that isn't a resort hotel?", "Yes. Every Eagle's villa in the Algarve comes with a private chef, housekeeping, private transfers and a host built into one all-inclusive price per person, so you get the privacy of your own villa with nothing left to arrange yourselves, rather than a self-catering villa where a chef or transfers are extras booked separately."),
         ],
     },
     {
