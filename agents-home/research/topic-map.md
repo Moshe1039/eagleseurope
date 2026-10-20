@@ -75,6 +75,12 @@ bedroom allocation), not the landing page originally suggested below. See
 
 ## All-Inclusive, Without the Resort: An Algarve Villa Escape for Couples 40+
 
+**Correction (2026-10-20):** per the real site structure in `context/business-summary.md`, the
+Algarve is a region inside Portugal's existing `/luxury-villas/portugal/` page, not a standalone
+route — so this shipped as a new FAQ entry on Portugal's page (same correction pattern as the
+Puglia and Tuscany entries above), not the landing page originally suggested below. See
+`drafts/pages/algarve-all-inclusive-not-a-resort-faq.md` for the full record.
+
 - Target audience: B2C
 - Why this topic: Search results split cleanly into two unconnected categories — adults-only
   all-inclusive *hotels* (TUI BLUE Falésia, Tivoli Alvor) and self-catering group *villas* with
@@ -83,8 +89,10 @@ bedroom allocation), not the landing page originally suggested below. See
   fewer all-inclusive resorts than Spain, Turkey, or Egypt. No result combines "villa privacy
   for a group" with "all-inclusive, nothing to arrange yourself" — that gap maps directly onto
   this product's actual structure and is worth claiming before a competitor notices it.
-- Suggested page type: landing page
-- Status: not started
+- Suggested page type: ~~landing page~~ — corrected to: new FAQ entry on the existing Portugal
+  page
+- Status: **drafted** — as a Portugal FAQ entry, pending checker review. See
+  `drafts/pages/algarve-all-inclusive-not-a-resort-faq.md`.
 
 ## Two Couples, One Villa: A Crete Retreat Where You Choose the Excursions
 
