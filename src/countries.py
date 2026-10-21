@@ -126,6 +126,7 @@ COUNTRIES = [
         "faq": [
             ("Can we book a villa in Crete with a private chef?", "Yes. Our Crete villas include a private chef, housekeeping, transfers and a host, with days out to villages, wineries and beaches."),
             ("Which Greek island is best for a group villa holiday?", "Crete offers the most variety and space. Paros and Antiparos suit groups who want island life without the Mykonos crowds."),
+            ("Is a Crete villa worth it for just two couples?", "Yes. Villa sizes in Crete range from an intimate home for two couples up to space for a full group, so a smaller group gets the same private chef, housekeeping, transfers and host, and chooses together how to spend the days: mountain villages, gorges, wineries or lagoons like Balos."),
         ],
     },
     {
