@@ -91,8 +91,12 @@ Puglia and Tuscany entries above), not the landing page originally suggested bel
   this product's actual structure and is worth claiming before a competitor notices it.
 - Suggested page type: ~~landing page~~ — corrected to: new FAQ entry on the existing Portugal
   page
-- Status: **drafted** — as a Portugal FAQ entry, pending checker review. See
-  `drafts/pages/algarve-all-inclusive-not-a-resort-faq.md`.
+- Status: **published** — as a Portugal FAQ entry, checker-approved 2026-10-20, see
+  `drafts/pages/algarve-all-inclusive-not-a-resort-faq.md` and the `[PUBLISHED TO PRODUCTION]`
+  commit on `main` (`e633f75`) from that day. **Bookkeeping correction (2026-10-21):** this
+  entry was left at `drafted` after it actually published on 2026-10-20 — the `[PUBLISHED TO
+  PRODUCTION]` commit and that day's report both confirm it went live same-day. Fixed here so
+  the next pass doesn't mistake this for still-pending.
 
 ## Two Couples, One Villa: A Crete Retreat Where You Choose the Excursions
 
@@ -104,8 +108,11 @@ Puglia and Tuscany entries above), not the landing page originally suggested bel
   outings. That's a specific, high-intent gap: the audience segment is proven to exist and be
   targetable, but no villa-based competitor is addressing it with an all-inclusive, pick-your-
   excursions package.
-- Suggested page type: landing page
-- Status: not started
+- Suggested page type: ~~landing page~~ — corrected to: new FAQ entry on the existing Greece
+  page (Crete is a region there, not a standalone route, per `context/business-summary.md`)
+- Status: **published** — as a Greece FAQ entry, checker-approved 2026-10-21, see
+  `drafts/pages/crete-two-couples-excursions-faq.md` and the `[PUBLISHED TO PRODUCTION]` commit
+  on `main` from today.
 
 ## Puglia Experience Guide: Masserie Dinners, Olive Groves, and Salento Wine Tastings
 
