@@ -17,7 +17,7 @@ COUNTRIES = [
         "regions": [
             ("Tuscany", "Cypress roads, Chianti and Montepulciano wineries, hill towns like Montalcino and Cortona. A Tuscany villa with a chef is our most requested journey."),
             ("Amalfi Coast", "Lemon terraces and cliffside villas above the sea, with boat days to Capri and long dinners as the lights come on in Positano."),
-            ("Puglia", "Whitewashed masserie among olive groves, trulli in the Itria Valley and an unhurried coastline, ideal for larger groups."),
+            ("Puglia", "Whitewashed masserie among centuries-old olive groves, trulli in the Itria Valley and an unhurried coastline, ideal for larger groups. Evenings can mean a long dinner under the stars in a masseria courtyard, or an afternoon among the olive trees tasting Salento's wines and cheeses."),
             ("Sicily", "Baroque towns, Etna wines and a cuisine of its own. Staffed villas near Noto, Taormina and the west coast."),
             ("Lake Como", "Grand lakeside villas, gardens running down to the water and evenings on the terrace with the mountains opposite."),
             ("Sardinia", "Some of Europe's clearest water, quiet coves and villas tucked into the macchia above the sea."),
