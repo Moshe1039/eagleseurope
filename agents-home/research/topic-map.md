@@ -116,6 +116,12 @@ Puglia and Tuscany entries above), not the landing page originally suggested bel
 
 ## Puglia Experience Guide: Masserie Dinners, Olive Groves, and Salento Wine Tastings
 
+**Correction (2026-10-23):** per `context/business-summary.md`'s real site structure, there is
+no "area/experience guide" page type — only `/` and `/luxury-villas/<country>/` exist — so this
+shipped as an enrichment of the existing Puglia region description on Italy's page (same
+correction pattern as the four prior entries above), not a standalone guide page. See
+`drafts/pages/puglia-experience-guide-region-enrichment.md` for the full record.
+
 - Target audience: B2C
 - Why this topic: Search results surface specific, recurring experience phrasing — "dinner
   under the stars in a masseria," "tasting of typical wines and cheeses," "a day among the
@@ -124,8 +130,11 @@ Puglia and Tuscany entries above), not the landing page originally suggested bel
   interest in these exact experiences (not generic "things to do in Puglia"), but it's currently
   scattered across low-authority sources rather than consolidated into one guide a group could
   use to decide what to pick.
-- Suggested page type: area/experience guide
-- Status: not started
+- Suggested page type: ~~area/experience guide~~ — corrected to: enriched Puglia region
+  description on the existing Italy page
+- Status: **published** — checker-approved 2026-10-23, see
+  `drafts/pages/puglia-experience-guide-region-enrichment.md` and the `[PUBLISHED TO
+  PRODUCTION]` commit on `main` from today.
 
 ## Tuscany Experience Guide: Chianti Wine, Cooking Classes, or Hilltop Towns
 
