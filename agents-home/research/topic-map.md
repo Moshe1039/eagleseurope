@@ -138,6 +138,12 @@ correction pattern as the four prior entries above), not a standalone guide page
 
 ## Tuscany Experience Guide: Chianti Wine, Cooking Classes, or Hilltop Towns
 
+**Correction (2026-10-24):** per `context/business-summary.md`'s real site structure, there is
+no "area/experience guide" page type — only `/` and `/luxury-villas/<country>/` exist — so this
+shipped as an enrichment of the existing Tuscany region description on Italy's page (same
+correction pattern as the Puglia experience-guide entry above). See
+`drafts/pages/tuscany-experience-guide-region-enrichment.md` for the full record.
+
 - Target audience: B2C
 - Why this topic: This maps directly onto the product's own "pick 2 of 6 attractions"
   mechanic — competitor villa listings (Chianti-region properties like Colli, hilltop farmhouse
@@ -145,8 +151,11 @@ correction pattern as the four prior entries above), not a standalone guide page
   the region as a menu of experiences a group selects from. An experience-guide page structured
   around "choose two of these" directly rehearses the product's own decision flow before the
   visitor ever reaches the lead form, which no competitor page does.
-- Suggested page type: area/experience guide
-- Status: not started
+- Suggested page type: ~~area/experience guide~~ — corrected to: enriched Tuscany region
+  description on the existing Italy page
+- Status: **published** — checker-approved 2026-10-24, see
+  `drafts/pages/tuscany-experience-guide-region-enrichment.md` and the `[PUBLISHED TO
+  PRODUCTION]` commit on `main` from today.
 
 ## Algarve Beyond the Beach: Cliffs, Boat Trips, and Old Town Days for Group Villa Stays
 
