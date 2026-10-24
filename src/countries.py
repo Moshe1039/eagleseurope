@@ -15,7 +15,7 @@ COUNTRIES = [
             "Whether your group dreams of Tuscan vineyards, a terrace on the Amalfi Coast or a masseria in Puglia, we match you to the right catered villa and plan the days around it.",
         ],
         "regions": [
-            ("Tuscany", "Cypress roads, Chianti and Montepulciano wineries, hill towns like Montalcino and Cortona. A Tuscany villa with a chef is our most requested journey."),
+            ("Tuscany", "Cypress roads, Chianti and Montepulciano wineries, hill towns like Montalcino and Cortona. A Tuscany villa with a chef is our most requested journey. A group can mix its own days: a Chianti estate wine tasting, a morning cooking class with the villa's own chef, or an afternoon wandering a hilltop town's piazza before dinner back at the villa."),
             ("Amalfi Coast", "Lemon terraces and cliffside villas above the sea, with boat days to Capri and long dinners as the lights come on in Positano."),
             ("Puglia", "Whitewashed masserie among centuries-old olive groves, trulli in the Itria Valley and an unhurried coastline, ideal for larger groups. Evenings can mean a long dinner under the stars in a masseria courtyard, or an afternoon among the olive trees tasting Salento's wines and cheeses."),
             ("Sicily", "Baroque towns, Etna wines and a cuisine of its own. Staffed villas near Noto, Taormina and the west coast."),
