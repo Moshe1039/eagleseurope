@@ -91,7 +91,7 @@ COUNTRIES = [
             "Stay by the sea in the Algarve or Comporta, among the terraced vineyards of the Douro, or in the hills of Sintra near Lisbon.",
         ],
         "regions": [
-            ("Algarve", "Golden cliffs, hidden coves and villas with pools a short drive from the beach."),
+            ("Algarve", "Golden cliffs, hidden coves and villas with pools a short drive from the beach. Beyond the sand, a group can fill its own days: a boat trip along the sea caves, an afternoon in Tavira's old town, or a cliff walk to the next cove before everyone's back at the villa for dinner."),
             ("Comporta", "Rice fields, dunes and endless beaches south of Lisbon, with a barefoot, design-led style."),
             ("Douro Valley", "Terraced vineyards along the river, port and wine quintas, and boat trips through the valley."),
             ("Sintra", "Palaces and forested hills near Lisbon, with the Atlantic coast close by."),
