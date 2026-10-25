@@ -159,6 +159,12 @@ correction pattern as the Puglia experience-guide entry above). See
 
 ## Algarve Beyond the Beach: Cliffs, Boat Trips, and Old Town Days for Group Villa Stays
 
+**Correction (2026-10-25):** per `context/business-summary.md`'s real site structure, there is
+no "area/experience guide" page type — only `/` and `/luxury-villas/<country>/` exist — so this
+shipped as an enrichment of the existing Algarve region description on Portugal's page (same
+correction pattern as the Puglia and Tuscany experience-guide entries above). See
+`drafts/pages/algarve-beyond-the-beach-region-enrichment.md` for the full record.
+
 - Target audience: B2C
 - Why this topic: Competitor content here is almost entirely hotel- or beach-focused (cliff-top
   resorts, adults-only beach hotels); none of the group-villa results (groupaccommodation.com,
@@ -166,8 +172,11 @@ correction pattern as the Puglia experience-guide entry above). See
   into a structured guide of inland/cultural options (historic Tavira, boat trips, old-town
   days). For a 40+ group that isn't purely beach-and-pool, this is an underserved angle with
   no direct competitor guide found.
-- Suggested page type: area/experience guide
-- Status: not started
+- Suggested page type: ~~area/experience guide~~ — corrected to: enriched Algarve region
+  description on the existing Portugal page
+- Status: **published** — checker-approved 2026-10-25, see
+  `drafts/pages/algarve-beyond-the-beach-region-enrichment.md` and the `[PUBLISHED TO
+  PRODUCTION]` commit on `main` from today.
 
 ## Crete Experience Guide: Knossos, Elafonissi, and the Wine Villages of Archanes
 
