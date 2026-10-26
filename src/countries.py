@@ -116,7 +116,7 @@ COUNTRIES = [
             "From the mountains and beaches of Crete to the islands of the Cyclades, we find the villa that fits your group and plan days at sea and in the villages.",
         ],
         "regions": [
-            ("Crete", "Greece's largest island: mountain villages, gorges, lagoons like Balos and villas above Chania and Elounda."),
+            ("Crete", "Greece's largest island: mountain villages, gorges, lagoons like Balos and villas above Chania and Elounda. A group can pick its own days: the Minoan palace at Knossos, the pink-tinted sands of Elafonissi, or a morning among Archanes' wine villages tasting local vintages and olive oil."),
             ("The Cyclades", "Mykonos, Paros, Naxos and Antiparos: white villages, windmills and boat days between islands."),
             ("Peloponnese", "Quiet bays, olive groves and ancient sites, with villas near Porto Heli and the Mani."),
             ("Corfu", "Green hills running down to the Ionian Sea, Venetian old town and calm swimming coves."),
