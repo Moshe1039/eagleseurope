@@ -180,6 +180,12 @@ correction pattern as the Puglia and Tuscany experience-guide entries above). Se
 
 ## Crete Experience Guide: Knossos, Elafonissi, and the Wine Villages of Archanes
 
+**Correction (2026-10-26):** per `context/business-summary.md`'s real site structure, there is
+no "area/experience guide" page type — only `/` and `/luxury-villas/<country>/` exist — so this
+shipped as an enrichment of the existing Crete region description on Greece's page (same
+correction pattern as the Puglia, Tuscany, and Algarve experience-guide entries above). See
+`drafts/pages/crete-experience-guide-region-enrichment.md` for the full record.
+
 - Target audience: B2C
 - Why this topic: Named, specific attractions recur across multiple independent sources
   (Knossos for Minoan history, Elafonissi and Balos for beaches, Archanes-area wineries and
@@ -187,8 +193,9 @@ correction pattern as the Puglia and Tuscany experience-guide entries above). Se
   Crete" phrasing, since visitors searching named sites are further along in planning. No
   result ties these specific named attractions together into one guide framed for a group
   deciding what to prioritize, despite each being individually well-covered.
-- Suggested page type: area/experience guide
-- Status: not started
+- Suggested page type: ~~area/experience guide~~ — corrected to: enriched Crete region
+  description on the existing Greece page
+- Status: **drafted** — pending checker review
 
 ## Private Villa Offsites in Europe for Israeli Tech Leadership Teams
 
