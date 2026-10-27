@@ -37,7 +37,7 @@ function form(c, people, errors = [], values = null) {
   return guestPage("Your details", `
   <p class="muted" style="margin:0">${esc(c.trip_name)}${dates}</p>
   <h1>Hello ${esc(c.label)}</h1>
-  <p>Please fill in your details so we can arrange transfers, register you with the villa and plan the menu with your chef. It takes about three minutes. ${c.submitted_at ? "<strong>We already have your details – you can update them below.</strong>" : ""}</p>
+  <p>Please fill in your details so we can arrange transfers, register you with the exclusive private resort and plan the menu with your chef. It takes about three minutes. ${c.submitted_at ? "<strong>We already have your details – you can update them below.</strong>" : ""}</p>
   ${errors.length ? `<div class="note err" role="alert"><strong>Please check:</strong><ul>${errors.map((e) => `<li>${esc(e)}</li>`).join("")}</ul></div>` : ""}
   <form method="post">
     ${person(0)}${person(1)}
@@ -53,7 +53,7 @@ function form(c, people, errors = [], values = null) {
       <p style="margin-bottom:0"><label for="no">Anything else we should know?</label><textarea id="no" name="notes">${v("notes", c.notes)}</textarea></p>
     </fieldset>
     <p><label style="display:flex;gap:10px;align-items:flex-start;font-weight:400"><input type="checkbox" name="consent" value="yes" required style="width:20px;min-height:20px;margin-top:3px">
-      <span>We agree that Eagle's may use these details, including any allergies or dietary needs, to organise our trip and share what is needed with the villa, drivers and chef, as described in the <a href="/privacy">privacy policy</a>. Details are deleted within 30 days after the trip.</span></label></p>
+      <span>We agree that Eagle's may use these details, including any allergies or dietary needs, to organise our trip and share what is needed with the exclusive private resort, drivers and chef, as described in the <a href="/privacy">privacy policy</a>. Details are deleted within 30 days after the trip.</span></label></p>
     <p><button class="btn" type="submit">Send our details</button></p>
   </form>`);
 }

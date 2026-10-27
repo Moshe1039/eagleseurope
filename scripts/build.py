@@ -88,17 +88,17 @@ def faq_schema(pairs):
 ORG = {
     "@context": "https://schema.org", "@type": "TravelAgency", "@id": SITE + "/#org",
     "name": BRAND, "alternateName": "Eagle's", "url": SITE + "/", "email": EMAIL, "telephone": "+972-50-924-3338", "image": OG_IMAGE,
-    "description": "All-inclusive luxury villa holidays in Europe with a private chef, host and transfers, for couples and groups of friends.",
+    "description": "All-inclusive luxury exclusive private resort holidays in Europe with a private chef, host and transfers, for couples and groups of friends.",
     "slogan": "Europe, for the people you love most.",
     "areaServed": [{"@type": "Country", "name": c["name"]} for c in COUNTRIES],
-    "knowsAbout": ["villa with private chef", "catered villas", "staffed villas", "all-inclusive villa holidays",
-                   "luxury villa rentals for groups", "catered chalets"],
+    "knowsAbout": ["exclusive private resort with private chef", "catered exclusive private resorts", "staffed exclusive private resorts",
+                   "all-inclusive exclusive private resort holidays", "luxury exclusive private resort rentals for groups", "catered chalets"],
 }
 
 
 def layout(*, title, desc, path, main, css, js, extra_head="", schemas=()):
     url = SITE + path
-    dest_links = "".join(f'<li><a href="/luxury-villas/{c["slug"]}/">Villas in {c["name"]}</a></li>' for c in COUNTRIES)
+    dest_links = "".join(f'<li><a href="/luxury-villas/{c["slug"]}/">Exclusive Private Resorts in {c["name"]}</a></li>' for c in COUNTRIES)
     ld = "\n".join(jsonld(s) for s in schemas)
     return f"""<!doctype html>
 <html lang="en">
@@ -163,10 +163,10 @@ def layout(*, title, desc, path, main, css, js, extra_head="", schemas=()):
       </nav>
     </div>
     <nav aria-label="Destinations"><ul class="dest-links">{dest_links}</ul></nav>
-    <p class="legal">© {BRAND} · All-inclusive luxury villa holidays with a private chef · [Company name, registered address, registration and VAT number] · This site uses no cookies or tracking. · Photography: Unsplash · Film: Pexels, Mixkit</p>
+    <p class="legal">© {BRAND} · All-inclusive luxury exclusive private resort holidays with a private chef · [Company name, registered address, registration and VAT number] · This site uses no cookies or tracking. · Photography: Unsplash · Film: Pexels, Mixkit</p>
   </div>
 </footer>
-<aside aria-label="Quick contact"><a class="wa-float" aria-label="Chat on WhatsApp with Eagle's" href="https://wa.me/972509243338?text=Hi%20Eagle%27s%2C%20I%27d%20like%20to%20hear%20about%20a%20villa%20holiday%20for%20our%20group." rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4a.5.5 0 0 0 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 11.9 11.9 0 0 0 4.6 4c1.7.7 2.4.8 3.2.7a2.8 2.8 0 0 0 1.8-1.3 2.3 2.3 0 0 0 .2-1.3c-.1-.1-.2-.2-.4-.3z"/></svg><span>Chat on WhatsApp</span></a></aside>
+<aside aria-label="Quick contact"><a class="wa-float" aria-label="Chat on WhatsApp with Eagle's" href="https://wa.me/972509243338?text=Hi%20Eagle%27s%2C%20I%27d%20like%20to%20hear%20about%20an%20exclusive%20private%20resort%20holiday%20for%20our%20group." rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4a.5.5 0 0 0 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 11.9 11.9 0 0 0 4.6 4c1.7.7 2.4.8 3.2.7a2.8 2.8 0 0 0 1.8-1.3 2.3 2.3 0 0 0 .2-1.3c-.1-.1-.2-.2-.4-.3z"/></svg><span>Chat on WhatsApp</span></a></aside>
 </body>
 </html>
 """
@@ -179,24 +179,24 @@ def destination_cards():
         out.append(f'''      <li class="reveal"><article class="dest">
         <div class="ph"><img src="{img(c["img"])}" alt="{e(c["alt"])}" loading="lazy" width="1200" height="900"></div>
         <div class="body"><h3>{c["name"]}</h3><ul class="regions" aria-label="Regions in {c["name"]}">{regions}</ul>
-        <a class="more" href="/luxury-villas/{c["slug"]}/">Villas in {c["name"]} with a private chef</a></div>
+        <a class="more" href="/luxury-villas/{c["slug"]}/">Exclusive Private Resorts in {c["name"]} with a private chef</a></div>
       </article></li>''')
     return "\n".join(out)
 
 
 def country_page(c):
     regions = "\n".join(
-        f'      <li class="region reveal"><h2>{e(name)} villas with a private chef</h2><p>{e(text)}</p></li>'
+        f'      <li class="region reveal"><h2>{e(name)} exclusive private resorts with a private chef</h2><p>{e(text)}</p></li>'
         for name, text in c["regions"])
     intro = "\n".join(f'      <p class="body">{e(p)}</p>' for p in c["intro"])
     faqs = "\n".join(f'      <details class="qa reveal"><summary><h3>{e(q)}</h3></summary><p>{e(a)}</p></details>' for q, a in c["faq"])
-    others = "".join(f'<li><a href="/luxury-villas/{o["slug"]}/">Villas in {o["name"]}</a></li>' for o in COUNTRIES if o is not c)
+    others = "".join(f'<li><a href="/luxury-villas/{o["slug"]}/">Exclusive Private Resorts in {o["name"]}</a></li>' for o in COUNTRIES if o is not c)
     return f'''<section class="page-hero" style="background-image:url('{img(c["img"], 2400)}')" aria-labelledby="page-title">
   <div class="wrap">
     <nav aria-label="Breadcrumb"><ol class="crumbs"><li><a href="/">Home</a></li><li><a href="/#destinations">Destinations</a></li><li aria-current="page">{c["name"]}</li></ol></nav>
     <h1 id="page-title">{e(c["h1"])}</h1>
     <p class="lead">{e(c["lead"])}</p>
-    <div class="hero-ctas"><a class="btn btn-gold" href="/?dest={c["name"]}#contact">Plan a villa holiday in {c["name"]}</a></div>
+    <div class="hero-ctas"><a class="btn btn-gold" href="/?dest={c["name"]}#contact">Plan an exclusive private resort holiday in {c["name"]}</a></div>
   </div>
   <span class="sr-only">Photo: {e(c["alt"])}</span>
 </section>
@@ -205,7 +205,7 @@ def country_page(c):
   <div class="wrap two-col">
     <div class="reveal">
       <p class="eyebrow">All-inclusive &amp; fully staffed</p>
-      <h2 id="intro-title">A catered villa in {c["name"]},<br><em>everything arranged.</em></h2>
+      <h2 id="intro-title">A catered exclusive private resort in {c["name"]},<br><em>everything arranged.</em></h2>
     </div>
     <div class="reveal">
 {intro}
@@ -231,14 +231,14 @@ def country_page(c):
     <ul class="facts-grid">
       <li><h3>Best time to go</h3><p>{e(c["season"])}</p></li>
       <li><h3>At the table</h3><p>{e(c["table"])}</p></li>
-      <li><h3>Included</h3><p>The villa, a private chef for breakfast and dinner, daily housekeeping, private transfers, a host on call and experiences in the region.</p></li>
+      <li><h3>Included</h3><p>The exclusive private resort, a private chef for breakfast and dinner, daily housekeeping, private transfers, a host on call and experiences in the region.</p></li>
     </ul>
   </div>
 </section>
 
 <section class="faq" aria-labelledby="faq-title">
   <div class="wrap two-col">
-    <div class="reveal"><p class="eyebrow">Questions</p><h2 id="faq-title">Villas in {c["name"]},<br><em>answered.</em></h2></div>
+    <div class="reveal"><p class="eyebrow">Questions</p><h2 id="faq-title">Exclusive Private Resorts in {c["name"]},<br><em>answered.</em></h2></div>
     <div class="qa-list">
 {faqs}
     </div>
@@ -248,12 +248,12 @@ def country_page(c):
 <section class="cta-band on-dark" aria-labelledby="cta-title">
   <div class="wrap">
     <h2 id="cta-title">Tell us about your group</h2>
-    <p>Share your dates and how many couples you are, and we will come back with a villa in {c["name"]} and a plan around it.</p>
+    <p>Share your dates and how many couples you are, and we will come back with an exclusive private resort in {c["name"]} and a plan around it.</p>
     <a class="btn btn-gold" href="/?dest={c["name"]}#contact">Request information</a>
   </div>
 </section>
 
-<nav class="other-dest" aria-label="Other destinations"><div class="wrap"><p class="eyebrow" style="margin:0">More villas in Europe</p><ul>{others}</ul></div></nav>'''
+<nav class="other-dest" aria-label="Other destinations"><div class="wrap"><p class="eyebrow" style="margin:0">More exclusive private resorts in Europe</p><ul>{others}</ul></div></nav>'''
 
 
 def main():
@@ -279,8 +279,8 @@ def main():
     home = read("home.html").replace("__DESTINATIONS__", destination_cards())
     website = {"@context": "https://schema.org", "@type": "WebSite", "name": BRAND, "url": SITE + "/", "publisher": {"@id": SITE + "/#org"}}
     write("index.html", layout(
-        title="Luxury Villa Holidays with a Private Chef | Eagle's Europe",
-        desc="All-inclusive villa holidays for couples & friends: a handpicked villa, private chef, host and transfers in Italy, Greece, France, Spain and beyond.",
+        title="Luxury Exclusive Private Resort Holidays with a Private Chef | Eagle's Europe",
+        desc="All-inclusive exclusive private resort holidays for couples & friends: a handpicked exclusive private resort, private chef, host and transfers in Italy, Greece, France, Spain and beyond.",
         path="/", main=home, schemas=(ORG, website, faq_schema(home_faq)), **common))
 
     # Countries
@@ -290,7 +290,7 @@ def main():
         crumbs = {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
             {"@type": "ListItem", "position": 1, "name": "Home", "item": SITE + "/"},
             {"@type": "ListItem", "position": 2, "name": "Destinations", "item": SITE + "/#destinations"},
-            {"@type": "ListItem", "position": 3, "name": f"Villas in {c['name']}", "item": SITE + path}]}
+            {"@type": "ListItem", "position": 3, "name": f"Exclusive Private Resorts in {c['name']}", "item": SITE + path}]}
         write(f"luxury-villas/{c['slug']}/index.html", layout(
             title=c["title"], desc=c["desc"], path=path, main=country_page(c),
             schemas=(crumbs, faq_schema(c["faq"])), **common))
@@ -300,14 +300,14 @@ def main():
     privacy = read("pages/privacy.html").replace("__UPDATED__", datetime.date.today().strftime("%-d %B %Y"))
     write("privacy.html", layout(
         title="Privacy Policy | Eagle's Europe",
-        desc="How Eagle's Europe collects, uses and protects personal data for enquiries and villa holidays, and your rights under the GDPR.",
+        desc="How Eagle's Europe collects, uses and protects personal data for enquiries and exclusive private resort holidays, and your rights under the GDPR.",
         path="/privacy", main=privacy, **common))
     urls.append((SITE + "/privacy", "0.3"))
 
     terms = read("pages/terms.html").replace("__UPDATED__", datetime.date.today().strftime("%-d %B %Y"))
     write("terms.html", layout(
         title="Booking Terms: Payment & Cancellation | Eagle's Europe",
-        desc="How payment works for an Eagle's villa holiday: deposit, balance, ways to pay as a group, and our cancellation terms.",
+        desc="How payment works for an Eagle's exclusive private resort holiday: deposit, balance, ways to pay as a group, and our cancellation terms.",
         path="/terms", main=terms, **common))
     urls.append((SITE + "/terms", "0.3"))
 
