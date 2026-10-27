@@ -4,3 +4,5 @@ node_modules/
 *.log
 .DS_Store
 agents-home/.env
+__pycache__/
+*.pyc
