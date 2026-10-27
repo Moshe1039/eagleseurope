@@ -195,9 +195,24 @@ correction pattern as the Puglia, Tuscany, and Algarve experience-guide entries 
   deciding what to prioritize, despite each being individually well-covered.
 - Suggested page type: ~~area/experience guide~~ — corrected to: enriched Crete region
   description on the existing Greece page
-- Status: **drafted** — pending checker review
+- Status: **published** — checker-approved 2026-10-26, see
+  `drafts/pages/crete-experience-guide-region-enrichment.md` and the `[PUBLISHED TO
+  PRODUCTION]` commit on `main` (`60d29b6`) from that day. **Bookkeeping correction
+  (2026-10-27):** this entry was left at `drafted — pending checker review` after it actually
+  published on 2026-10-26 — the draft file's own `status: approved` front matter, the checker
+  verdict recorded in it, and the `[PUBLISHED TO PRODUCTION]` commit all confirm it went live
+  same-day. Fixed here so the next pass doesn't mistake this for still-pending (same recurring
+  bookkeeping slip as the Algarve entry above on 2026-10-21).
 
 ## Private Villa Offsites in Europe for Israeli Tech Leadership Teams
+
+**Correction (2026-10-27):** per `context/business-summary.md`'s real site structure, there is
+no standalone "landing page" type — only `/` and `/luxury-villas/<country>/` exist — so this
+shipped as a new FAQ entry on Switzerland's existing `/luxury-villas/switzerland/` page (same
+correction pattern as every prior entry above, applied here to a B2B topic for the first time —
+Switzerland was picked because its existing copy already sells the privacy/chef/host structure a
+leadership-retreat buyer needs, without contradicting anything there). See
+`drafts/pages/switzerland-leadership-offsite-faq.md` for the full record.
 
 - Target audience: B2B
 - Why this topic: Direct search for "Israeli tech company leadership retreat Europe villa"
@@ -208,8 +223,11 @@ correction pattern as the Puglia, Tuscany, and Algarve experience-guide entries 
   Those two signals together — real preference for villas abroad, zero existing content
   connecting that preference to corporate/leadership use — mark this as genuinely open ground
   rather than a contested keyword.
-- Suggested page type: landing page
-- Status: not started
+- Suggested page type: ~~landing page~~ — corrected to: new FAQ entry on the existing
+  Switzerland page
+- Status: **published** — checker-approved 2026-10-27, see
+  `drafts/pages/switzerland-leadership-offsite-faq.md` and the `[PUBLISHED TO PRODUCTION]`
+  commit on `main` from today.
 
 ## Villa vs. Hotel for a Leadership Retreat: Privacy, One Price, No Shared Lobby
 
