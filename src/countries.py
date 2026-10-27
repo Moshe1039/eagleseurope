@@ -173,6 +173,7 @@ COUNTRIES = [
         "faq": [
             ("Do you offer catered chalets in Switzerland?", "Yes. Our chalets come with a private chef, housekeeping, transfers and a host, in winter and summer."),
             ("Is Switzerland good for a summer villa holiday?", "Very. Lakeside villas, mountain walks and mild weather make it a cool alternative to the Mediterranean in July and August."),
+            ("Can a company book one of your villas for a leadership team offsite rather than a couples' holiday?", "Yes. The villa, chef, host and transfers are booked privately for your group alone, with no other guests and no shared hotel lobby, so a leadership team has the same closed-door privacy a group of couples gets. The structure doesn't change for a corporate group: one all-inclusive price per person, arranged around your group rather than listed room by room."),
         ],
     },
     {
