@@ -231,6 +231,19 @@ leadership-retreat buyer needs, without contradicting anything there). See
 
 ## Villa vs. Hotel for a Leadership Retreat: Privacy, One Price, No Shared Lobby
 
+**Rejected (2026-10-28):** the 2026-10-27 report flagged this entry explicitly as needing a
+human call before acting, because it overlaps heavily in theme with the B2B FAQ already
+published on Switzerland's page that same day ("Can a company book...for a leadership team
+offsite") — the report said so should ship as its own entry on a *different* country, or be
+marked superseded, and asked for a human decision rather than deciding unilaterally. Today's
+pass initially missed that flag, drafted this as a second Switzerland FAQ, got it through a
+build-clean checker pass — then, before committing, re-read yesterday's report, recognized the
+drafted FAQ substantially restates the existing one (both lean on "no shared hotel lobby" and
+"one all-inclusive price"), and reverted the `src/countries.py` edit rather than publish
+genuinely redundant content. Nothing was committed or pushed. See
+`drafts/pages/switzerland-villa-vs-hotel-faq.md` for the full record, including the rejected
+draft text, and today's report for the open question this still leaves for the human.
+
 - Target audience: B2B
 - Why this topic: A generic (non-Israeli, non-tech-specific) guide to "venues for a company
   offsite abroad" exists (groupaccommodation.com) and already argues villas/country estates
@@ -239,6 +252,9 @@ leadership-retreat buyer needs, without contradicting anything there). See
   same comparison to this product's actual terms (one all-inclusive price, no published rate
   card, full-group privacy) is a straightforward differentiation play against a format
   competitors have only covered generically.
-- Suggested page type: landing page
-- Status: not started
+- Suggested page type: ~~landing page~~ — corrected to: new FAQ entry, but on which country is
+  the open question (see rejection note above)
+- Status: **not started** — human input needed on whether to use a different country's page, or
+  mark this entry superseded by the existing Switzerland FAQ. Not re-attempted until that's
+  answered.
 </content>
