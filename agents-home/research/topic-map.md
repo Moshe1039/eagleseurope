@@ -256,5 +256,58 @@ draft text, and today's report for the open question this still leaves for the h
   the open question (see rejection note above)
 - Status: **not started** — human input needed on whether to use a different country's page, or
   mark this entry superseded by the existing Switzerland FAQ. Not re-attempted until that's
-  answered.
+  answered. **Still unresolved as of 2026-10-29 (third day running) — see today's report.**
+  Because this is the only `not started` entry and it's explicitly blocked pending a human call,
+  today's pass treated the topic map as having no safe actionable entry and ran the
+  keyword-researcher fallback (per the routine's step 2) to add fresh entries below rather than
+  re-attempting this one a third time.
+
+## Istria Beyond the Coast: Truffle Hunts in Motovun, Hilltop Grožnjan, and Malvazija Wine Tastings
+
+- Target audience: B2C
+- Why this topic: Istria truffle-hunting experiences (private hunts with trained dogs near
+  Motovun and Buzet, e.g. Karlić Tartufi) and Malvazija wine tastings are sold everywhere as
+  standalone day activities or tours, consistently paired with named hilltop towns (Motovun,
+  Grožnjan) across travel-guide and tour-operator sources. Villa rental listings for the region
+  separately note that "many guests plan trips around truffle hunts" as an add-on, but no result
+  found bundles a private villa stay with these named experiences as one package — every
+  competitor sells either the villa or the truffle/wine day, never both together. Croatia's
+  existing page already covers the Dalmatian Coast, Hvar and Istria, but Istria's current region
+  description (`src/countries.py`) is generic ("hill towns, truffles, olive oil and wine") with
+  no named places — this is the same enrichment pattern already shipped for Puglia, Tuscany,
+  Algarve and Crete, applied to Istria's un-enriched description.
+- Suggested page type: enriched Istria region description on the existing Croatia page
+- Status: **published** — checker-approved 2026-10-29, see
+  `drafts/pages/istria-beyond-the-coast-region-enrichment.md` and the `[PUBLISHED TO PRODUCTION]`
+  commit on `main` (`a487648`) from today.
+
+## Mosel Valley: A Villa Base for Riverside Wine Villages Between Traben-Trarbach and Zell
+
+- Target audience: B2C
+- Why this topic: Search results split the same way as every prior enrichment gap — wine-tasting
+  venues and guided tours (Villa Huesgen's Art Nouveau tastings, Visit Moselle's guided
+  Via Mosel walks, Zell's gourmet weekend package) on one side, and general holiday-home listings
+  (Villa for You, Micazu) with no tasting experience built in on the other. Nothing found
+  combines a private group villa stay with a curated Mosel wine-village itinerary as one
+  package. Germany's existing Mosel Valley region description (`src/countries.py`) only
+  mentions "steep Riesling vineyards, half-timbered villages and river cruises" in general terms
+  — the same gap the Puglia/Tuscany/Algarve/Crete enrichments closed elsewhere: named villages
+  and a specific tasting experience are missing.
+- Suggested page type: enriched Mosel Valley region description on the existing Germany page
+- Status: not started
+
+## Hvar: Lavender Fields in Velo Grablje and a Sailing Day to the Pakleni Islands
+
+- Target audience: B2C
+- Why this topic: Hvar's lavender season (Velo Grablje and Brusje, with a lavender festival at
+  the end of June) and sailing day trips to the Pakleni Islands both recur as named, specific
+  draws across independent sources, but villa-rental listings for Hvar (Marriott Homes & Villas,
+  CV Villas, Holidu) describe the properties only — pools, bedroom counts, nightly rates — with
+  no mention of these named experiences, and the lavender/sailing content lives on separate
+  tour/guide sites. Croatia's existing Hvar region description (`src/countries.py`) currently
+  says only "lavender fields, a lively harbour town and quiet bays" with no named places —
+  enriching it with Velo Grablje, the lavender festival timing, and a named Pakleni Islands
+  sailing day follows the same pattern already shipped for Puglia, Tuscany, Algarve and Crete.
+- Suggested page type: enriched Hvar region description on the existing Croatia page
+- Status: not started
 </content>
