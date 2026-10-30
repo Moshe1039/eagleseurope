@@ -294,7 +294,8 @@ draft text, and today's report for the open question this still leaves for the h
   — the same gap the Puglia/Tuscany/Algarve/Crete enrichments closed elsewhere: named villages
   and a specific tasting experience are missing.
 - Suggested page type: enriched Mosel Valley region description on the existing Germany page
-- Status: not started
+- Status: **drafted** — see `drafts/pages/mosel-valley-region-enrichment.md`, build clean,
+  awaiting checker review (2026-10-30).
 
 ## Hvar: Lavender Fields in Velo Grablje and a Sailing Day to the Pakleni Islands
 

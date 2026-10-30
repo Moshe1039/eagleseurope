@@ -212,7 +212,7 @@ COUNTRIES = [
         ],
         "regions": [
             ("Bavarian Alps", "Mountain chalets near Garmisch and Berchtesgaden, alpine lakes and walking from the door."),
-            ("Mosel Valley", "Steep Riesling vineyards, half-timbered villages and river cruises between wine towns."),
+            ("Mosel Valley", "Steep Riesling vineyards and half-timbered wine villages along the river between Traben-Trarbach and Zell. A group can fill its own days: a private tasting at a family winery on the slopes above Traben-Trarbach, an afternoon in Zell's riverside lanes with its own Riesling tradition, or a slow river cruise linking the wine towns in between."),
             ("Lake Constance", "A lake shared with Austria and Switzerland, with islands, gardens and lakeside exclusive private resorts."),
         ],
         "table": "Seasonal regional cooking, lake fish, Bavarian classics done well and Rieslings from the Mosel.",
