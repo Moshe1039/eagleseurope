@@ -3,7 +3,7 @@ topic_map_entry: Mosel Valley: A Villa Base for Riverside Wine Villages Between 
 target_audience: B2C
 edit_type: region_description
 file_edited: ../src/countries.py
-status: pending_checker_review
+status: approved_published
 ---
 
 # Mosel Valley region enrichment (Germany page)
@@ -51,3 +51,15 @@ Ran `npm install && npm run build` from the repo root after the edit: succeeded,
 
 Status after this: `src/countries.py` edit is in place, build is clean, topic-map entry
 updated to `drafted`. Awaiting independent checker re-verification before any commit/push.
+
+## Checker verdict (2026-10-30)
+
+**Approved.** Independently re-ran `rm -rf node_modules && npm install && npm run build` —
+clean, same output (12 pages + 404, CSS/JS bundles). `git diff -- src/countries.py` confirmed
+the change touches only the `"Mosel Valley"` tuple inside Germany's `regions` list — no new key,
+no file outside `src/countries.py` (the `public/` diffs and `privacy.html`/`terms.html` date
+stamps are the build script's own output, not a manual edit). Checked against
+`context/rules.md`: no unprovable claims, no villa-specific content requiring consent, maps
+directly to the Mosel Valley topic-map entry and stays organic/experience-framed, no PII or
+secrets, no legal/tax claim. Committed as `[PUBLISHED TO PRODUCTION]` (`bca66b4`) and pushed to
+`main`.
