@@ -142,7 +142,7 @@ COUNTRIES = [
         ],
         "regions": [
             ("Dalmatian Coast", "Split and Dubrovnik, stone exclusive private resorts by the water and islands a short boat ride away."),
-            ("Hvar", "Lavender fields, a lively harbour town and quiet bays on the island's south side."),
+            ("Hvar", "Lavender fields, a lively harbour town and quiet bays on the island's south side. A group can fill its own days: a morning among the lavender rows of Velo Grablje, timed to the village's lavender festival at the end of June, or a full day sailing out to the Pakleni Islands for swimming stops and a quiet lunch anchorage before the harbour's evening lights come on."),
             ("Istria", "Hill towns, truffles, olive oil and wine, with an easy coastline below. A group can fill its own days: a private truffle hunt with trained dogs in the oak forests near Motovun, an afternoon among Grožnjan's hilltop lanes of galleries and stone houses, or a morning tasting Malvazija at a family winery before heading back down to the coast."),
         ],
         "table": "Grilled Adriatic fish, Istrian truffles and olive oil, and wines from Dalmatia and Istria.",

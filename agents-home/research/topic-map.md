@@ -311,5 +311,7 @@ draft text, and today's report for the open question this still leaves for the h
   enriching it with Velo Grablje, the lavender festival timing, and a named Pakleni Islands
   sailing day follows the same pattern already shipped for Puglia, Tuscany, Algarve and Crete.
 - Suggested page type: enriched Hvar region description on the existing Croatia page
-- Status: not started
+- Status: **published** — checker-approved 2026-10-31, see
+  `drafts/pages/hvar-lavender-sailing-region-enrichment.md` and the `[PUBLISHED TO PRODUCTION]`
+  commit on `main` from today.
 </content>
