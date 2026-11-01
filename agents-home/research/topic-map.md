@@ -314,4 +314,63 @@ draft text, and today's report for the open question this still leaves for the h
 - Status: **published** — checker-approved 2026-10-31, see
   `drafts/pages/hvar-lavender-sailing-region-enrichment.md` and the `[PUBLISHED TO PRODUCTION]`
   commit on `main` from today.
+
+## Mallorca Beyond the Beach: A Tramuntana Hike to a Santa Maria del Camí Wine Tasting
+
+**Added (2026-11-01) by the keyword-researcher fallback pass** — the topic map's only
+`not started` entry ("Villa vs. Hotel for a Leadership Retreat") is still blocked on a human
+decision (see that entry below, unresolved six days running), so this pass added fresh entries
+rather than re-attempting it a sixth time.
+
+- Target audience: B2C
+- Why this topic: WebSearch on Tramuntana hiking + wine tasting surfaces a consistent split —
+  multiple operators (Wilderness Travel, VBT, Audley Travel, a Valldemossa-and-wine small-group
+  tour, and Mallorca Wine Tours, based in Santa Maria del Camí and explicitly set up for larger
+  groups) sell a guided hike on the old Tramuntana paths above Valldemossa paired with a family
+  winery tasting, as a standalone day tour. None of them is a villa operator, and Spain's
+  existing Mallorca region description (`src/countries.py`) only says "fincas in the Tramuntana
+  mountains, coves on the east coast and the old town of Palma" with no named village, trail, or
+  winery — the same generic-description gap already closed for Puglia, Tuscany, Algarve, Crete,
+  Istria, Hvar and Mosel. Nothing found combines a private group villa stay with this specific
+  hike-to-tasting day as one package.
+- Suggested page type: enriched Mallorca region description on the existing Spain page
+- Status: **published** — checker-approved 2026-11-01, see
+  `drafts/pages/mallorca-tramuntana-wine-region-enrichment.md` and the `[PUBLISHED TO
+  PRODUCTION]` commit on `main` from today.
+
+## Austria's Wachau Valley: A Private Day Between Dürnstein and Melk Abbey
+
+**Added (2026-11-01) by the keyword-researcher fallback pass**, same reason as the Mallorca
+entry above.
+
+- Target audience: B2C
+- Why this topic: WebSearch confirms Dürnstein and Melk Abbey are consistently sold together as
+  a named Danube day trip from Vienna (Vienna Sightseeing, Headout, TheTourGuy, daytrip.com),
+  often with a boat ride between the two and a wine-tasting stop at a Dürnstein tavern — but
+  every result is a bus/van tour departing Vienna, not a stay based in the valley itself.
+  Austria's existing Wachau Valley region description (`src/countries.py`) only says "terraced
+  vineyards along the Danube, apricot orchards and Grüner Veltliner tastings" with no named
+  towns — the same gap already closed for Mosel Valley on Germany's page (a very similar
+  river-valley/wine-village structure). A group based in the valley itself, rather than day-
+  tripping in from Vienna, is the differentiated angle no competitor result addresses.
+- Suggested page type: enriched Wachau Valley region description on the existing Austria page
+- Status: not started
+
+## Peloponnese Beyond the Villa: Mystras, the Mani, and the Diros Caves
+
+**Added (2026-11-01) by the keyword-researcher fallback pass**, same reason as the two entries
+above.
+
+- Target audience: B2C
+- Why this topic: WebSearch shows villa-rental operators (Simpson Travel, Marriott Homes &
+  Villas) marketing the Peloponnese on property size and pool count, while separately naming
+  Mystras, the Mani and the Diros Caves only as generic "day trip" mentions — no result ties a
+  specific villa stay to a structured day between these three named sites. Greece's existing
+  Peloponnese region description (`src/countries.py`) only says "quiet bays, olive groves and
+  ancient sites" with no named places — the same generic-description gap already closed for
+  Crete on this same country page. The Byzantine ruins at Mystras, the Mani's stone tower
+  villages, and the Diros Caves boat tour are each independently well-covered but never
+  consolidated into one guide for a group deciding what to prioritize.
+- Suggested page type: enriched Peloponnese region description on the existing Greece page
+- Status: not started
 </content>
