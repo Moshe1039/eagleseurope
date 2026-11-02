@@ -354,7 +354,9 @@ entry above.
   river-valley/wine-village structure). A group based in the valley itself, rather than day-
   tripping in from Vienna, is the differentiated angle no competitor result addresses.
 - Suggested page type: enriched Wachau Valley region description on the existing Austria page
-- Status: not started
+- Status: **published** — checker-approved 2026-11-02, see
+  `drafts/pages/wachau-valley-region-enrichment.md` and the `[PUBLISHED TO PRODUCTION]` commit
+  on `main` (`9794cba`) from today.
 
 ## Peloponnese Beyond the Villa: Mystras, the Mani, and the Diros Caves
 
