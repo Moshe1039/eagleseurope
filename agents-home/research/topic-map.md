@@ -374,6 +374,7 @@ above.
   villages, and the Diros Caves boat tour are each independently well-covered but never
   consolidated into one guide for a group deciding what to prioritize.
 - Suggested page type: enriched Peloponnese region description on the existing Greece page
-- Status: **drafted** — see `drafts/pages/peloponnese-beyond-the-villa-region-enrichment.md`,
-  build clean, pending checker review.
+- Status: **published** — checker-approved 2026-11-03, see
+  `drafts/pages/peloponnese-beyond-the-villa-region-enrichment.md` and the `[PUBLISHED TO
+  PRODUCTION]` commit on `main` (`8484af4`) from today.
 </content>
