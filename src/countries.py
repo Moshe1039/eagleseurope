@@ -118,7 +118,7 @@ COUNTRIES = [
         "regions": [
             ("Crete", "Greece's largest island: mountain villages, gorges, lagoons like Balos and exclusive private resorts above Chania and Elounda. A group can pick its own days: the Minoan palace at Knossos, the pink-tinted sands of Elafonissi, or a morning among Archanes' wine villages tasting local vintages and olive oil."),
             ("The Cyclades", "Mykonos, Paros, Naxos and Antiparos: white villages, windmills and boat days between islands."),
-            ("Peloponnese", "Quiet bays, olive groves and ancient sites, with exclusive private resorts near Porto Heli and the Mani."),
+            ("Peloponnese", "Quiet bays, olive groves and ancient sites, with exclusive private resorts near Porto Heli and the Mani. A group can pick its own days: the Byzantine ruins at Mystras, the stone tower villages of the Mani, or a boat through the underground Diros Caves."),
             ("Corfu", "Green hills running down to the Ionian Sea, Venetian old town and calm swimming coves."),
         ],
         "table": "Greek salads with island tomatoes, grilled fish, slow-cooked lamb, local cheeses, olive oil and wines from Crete and Santorini.",
