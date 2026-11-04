@@ -377,4 +377,68 @@ above.
 - Status: **published** — checker-approved 2026-11-03, see
   `drafts/pages/peloponnese-beyond-the-villa-region-enrichment.md` and the `[PUBLISHED TO
   PRODUCTION]` commit on `main` (`8484af4`) from today.
+
+## Sardinia: A Villa Base for a Boat Day to the La Maddalena Archipelago
+
+**Added (2026-11-04) by the keyword-researcher fallback pass** — the topic map's only
+`not started` entry ("Villa vs. Hotel for a Leadership Retreat") is still blocked on a human
+decision (see that entry above, unresolved eight days running), so this pass added fresh
+entries rather than re-attempting it an eighth time.
+
+- Target audience: B2C
+- Why this topic: WebSearch shows a clean split — villa-rental listings for Sardinia (Villas of
+  Distinction, A.M.A Selections, Posarelli, Italy-Villas, Landfolk) describe the property only
+  (pool, bedrooms, sea view), while named boat-day operators (Civitatis, Musement, Freedome,
+  Click&Boat) sell full-day trips from Palau/La Maddalena/Costa Smeralda out to the La Maddalena
+  archipelago's Spargi, Santa Maria and Budelli islands, independently corroborated by travel
+  guides (2luxury2, Voyagetips) as a top Costa Smeralda activity. No result combines a private
+  villa stay with this named boat day as one package. Italy's existing Sardinia region
+  description (`src/countries.py`) only says "some of Europe's clearest water, quiet coves and
+  exclusive private resorts tucked into the macchia above the sea" with no named places — the
+  same generic-description gap already closed for Tuscany, Puglia and others on this page.
+- Suggested page type: enriched Sardinia region description on the existing Italy page
+- Status: **published** — checker-approved 2026-11-04, see
+  `drafts/pages/sardinia-la-maddalena-region-enrichment.md` and the `[PUBLISHED TO PRODUCTION]`
+  commit on `main` from today.
+
+## Dordogne: Canoeing to La Roque-Gageac and Sarlat's Market Day
+
+**Added (2026-11-04) by the keyword-researcher fallback pass**, same reason as the Sardinia
+entry above.
+
+- Target audience: B2C
+- Why this topic: WebSearch confirms two recurring named experiences sold as standalone day
+  activities, never bundled with a stay — canoeing the Dordogne river between La Roque-Gageac
+  and Domme/Carsac (named outfitters: Canoë Dordogne, Canoës Loisirs Dordogne, Canoë Randonnée
+  Dordogne, independently listed on CheckYeti and Manawa) and Sarlat's market day plus winter
+  truffle hunts (named guided tours: Ophorus's "Sarlat Market & Gourmet Food Tour", Magpie
+  Travel; independently flagged by Lonely Planet and Rick Steves). Villa listings for the region
+  (Clickstay, A.M.A Selections, Villaforyou, SimplyOwners) describe pool, garden and games-room
+  amenities only, with no mention of either experience by name. France's existing Dordogne
+  region description (`src/countries.py`) only says "châteaux above the river, quiet countryside,
+  truffles and walnuts: a slower, greener France" with no named village or activity — the same
+  gap already closed elsewhere on this page's sibling country pages.
+- Suggested page type: enriched Dordogne region description on the existing France page
+- Status: not started
+
+## Costa Brava: A Camí de Ronda Walk Between the Medieval Villages
+
+**Added (2026-11-04) by the keyword-researcher fallback pass**, same reason as the two entries
+above.
+
+- Target audience: B2C
+- Why this topic: WebSearch found three named, independently-sourced experiences for Costa
+  Brava, all sold only as standalone tours with no villa-stay combination found — the Camí de
+  Ronda coastal path (guided day hikes, especially Palamós–Calella de Palafrugell–Cap Roig,
+  covered independently by Spain.info and Timeout Girona), the Pals–Peratallada–Begur medieval-
+  village circuit (fixed-itinerary tours from Musement and Lokalee), and the Cadaqués/Dalí
+  triangle (Civitatis, Hellotickets, corroborated by Visit Costa Brava's own tourism site). Villa
+  listings (Iberimo, Amarantelva, Oliver's Travels) describe pool, tennis court and sea-view
+  proximity only, naming no village or path. Spain's existing Costa Brava region description
+  (`src/countries.py`) only says "rocky coves, medieval villages and Catalan cooking, an easy
+  distance from Barcelona" with no named place — the same gap already closed for Mallorca on
+  this same country page. The Pals/Peratallada/Begur circuit fits the existing "medieval
+  villages" phrasing most literally, so that's the recommended angle if only one is used.
+- Suggested page type: enriched Costa Brava region description on the existing Spain page
+- Status: not started
 </content>
