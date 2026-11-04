@@ -20,7 +20,7 @@ COUNTRIES = [
             ("Puglia", "Whitewashed masserie among centuries-old olive groves, trulli in the Itria Valley and an unhurried coastline, ideal for larger groups. Evenings can mean a long dinner under the stars in a masseria courtyard, or an afternoon among the olive trees tasting Salento's wines and cheeses."),
             ("Sicily", "Baroque towns, Etna wines and a cuisine of its own. Staffed exclusive private resorts near Noto, Taormina and the west coast."),
             ("Lake Como", "Grand lakeside exclusive private resorts, gardens running down to the water and evenings on the terrace with the mountains opposite."),
-            ("Sardinia", "Some of Europe's clearest water, quiet coves and exclusive private resorts tucked into the macchia above the sea."),
+            ("Sardinia", "Some of Europe's clearest water, quiet coves and exclusive private resorts tucked into the macchia above the sea. A group can fill its own day with a boat out from Palau to the La Maddalena archipelago, hopping between the white sands of Spargi, Santa Maria and Budelli for swim stops along the way, or a quieter morning among the coves closer to the exclusive private resort."),
         ],
         "table": "Fresh pasta made by hand, local olive oil, seasonal vegetables from the market and wines from the valley you are staying in.",
         "season": "May, June, September and October are ideal: warm days, the sea already swimmable in the south and the harvest season in Tuscany. July and August are hot and busy, best for the lakes and the coast.",
