@@ -45,7 +45,7 @@ COUNTRIES = [
         "regions": [
             ("Provence", "Lavender fields in early summer, hilltop villages in the Luberon and market mornings in towns like L'Isle-sur-la-Sorgue."),
             ("Côte d'Azur", "Exclusive private resorts above the Mediterranean between Saint-Tropez and Menton, with beach clubs, boat days and the old towns of the Riviera."),
-            ("Dordogne", "Châteaux above the river, quiet countryside, truffles and walnuts: a slower, greener France."),
+            ("Dordogne", "Châteaux above the river, quiet countryside, truffles and walnuts: a slower, greener France. A group can fill its own day with a canoe down the river past La Roque-Gageac's cliffside houses toward Domme, or a Saturday morning at Sarlat's market, with a winter truffle hunt in the surrounding countryside for those visiting in season."),
             ("Bordeaux wine country", "Vineyard estates around Saint-Émilion and the Médoc, with private tastings arranged at the châteaux."),
         ],
         "table": "Market vegetables, cheeses from the region, fresh fish on the coast and wines poured from the vineyards around you.",
