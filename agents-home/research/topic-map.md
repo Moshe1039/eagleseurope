@@ -419,7 +419,9 @@ entry above.
   truffles and walnuts: a slower, greener France" with no named village or activity — the same
   gap already closed elsewhere on this page's sibling country pages.
 - Suggested page type: enriched Dordogne region description on the existing France page
-- Status: not started
+- Status: **published** — checker-approved 2026-11-05, see
+  `drafts/pages/dordogne-canoeing-sarlat-region-enrichment.md` and the `[PUBLISHED TO
+  PRODUCTION]` commit on `main` from today.
 
 ## Costa Brava: A Camí de Ronda Walk Between the Medieval Villages
 
