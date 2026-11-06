@@ -442,5 +442,10 @@ above.
   this same country page. The Pals/Peratallada/Begur circuit fits the existing "medieval
   villages" phrasing most literally, so that's the recommended angle if only one is used.
 - Suggested page type: enriched Costa Brava region description on the existing Spain page
-- Status: not started
+- Status: **published** — checker-approved 2026-11-06, see
+  `drafts/pages/costa-brava-cami-de-ronda-region-enrichment.md` and the `[PUBLISHED TO
+  PRODUCTION]` commit on `main` from today. Used the Pals/Peratallada/Begur circuit as primary
+  angle per this entry's own recommendation, with the Camí de Ronda folded in as a second day;
+  the Cadaqués/Dalí angle was left out to keep the addition to two sentences — it remains
+  available for a future entry.
 </content>
