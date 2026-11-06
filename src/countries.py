@@ -70,7 +70,7 @@ COUNTRIES = [
             ("Mallorca", "Fincas in the Tramuntana mountains, coves on the east coast and the old town of Palma. Catered exclusive private resorts in Mallorca are a favourite for groups. A group can fill its own days: a guided hike along the Tramuntana's old mule paths above Valldemossa, finishing at a family winery near Santa Maria del Camí for a tasting, or a slower morning in Palma's old town before the coves in the afternoon."),
             ("Ibiza", "The quieter, beautiful side of the island: exclusive private resorts in the north, sunset terraces and beach lunches."),
             ("Andalusia", "Cortijos among olive trees, white villages, Seville and Granada within reach, and the coast near Marbella."),
-            ("Costa Brava", "Rocky coves, medieval villages and Catalan cooking, an easy distance from Barcelona."),
+            ("Costa Brava", "Rocky coves, medieval villages and Catalan cooking, an easy distance from Barcelona. A group can walk a stretch of the Camí de Ronda coastal path between the coves one day, then spend a slower day on the medieval-village circuit through Pals, Peratallada and Begur, each a short drive from the last."),
         ],
         "table": "Tapas to start, rice cooked over fire, fish from the morning's catch and Spanish wines from Rioja to the islands.",
         "season": "May, June, September and October are warm without the peak-summer heat. The islands stay pleasant well into October.",
