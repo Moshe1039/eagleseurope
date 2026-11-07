@@ -470,8 +470,9 @@ entries rather than re-attempting it a twelfth time.
   generic-mention gap already closed for Sardinia and other Italian regions on this same page.
   No result combines a private group villa stay with a named Etna tasting day as one package.
 - Suggested page type: enriched Sicily region description on the existing Italy page
-- Status: drafted — see `drafts/pages/sicily-etna-wine-tasting-region-enrichment.md`, build
-  clean (`npm run build`, 12 pages), pending checker review
+- Status: **published** — checker-approved 2026-11-07, see
+  `drafts/pages/sicily-etna-wine-tasting-region-enrichment.md` and the `[PUBLISHED TO
+  PRODUCTION]` commit on `main` (`8e6de62`) from today.
 
 ## Bordeaux: A Right Bank Day Between Saint-Émilion's Grand Cru Châteaux
 

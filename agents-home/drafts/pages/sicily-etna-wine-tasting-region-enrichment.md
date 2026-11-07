@@ -3,7 +3,7 @@ topic_map_entry: Sicily: An Etna Wine Tasting Between Noto and Taormina
 target_audience: B2C
 edit_type: region_description
 file_edited: ../src/countries.py
-status: pending_checker_review
+status: published
 ---
 
 ## What changed
