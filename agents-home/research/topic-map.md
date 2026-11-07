@@ -448,4 +448,69 @@ above.
   angle per this entry's own recommendation, with the Camí de Ronda folded in as a second day;
   the Cadaqués/Dalí angle was left out to keep the addition to two sentences — it remains
   available for a future entry.
-</content>
+
+## Sicily: An Etna Wine Tasting Between Noto and Taormina
+
+**Added (2026-11-07) by the keyword-researcher fallback pass** — the topic map's only
+`not started` entry ("Villa vs. Hotel for a Leadership Retreat") is still blocked on a human
+decision (see that entry above, unresolved twelve days running), so this pass added fresh
+entries rather than re-attempting it a twelfth time.
+
+- Target audience: B2C
+- Why this topic: WebSearch shows the same split found for every prior enrichment gap —
+  multi-day tour operators (Exodus's "Sicily: Vino & Volcanoes" and "Sicily Grand Tour",
+  OnTheGo Tours' Taormina-to-Palermo itinerary) sell a guided Etna walk paired with a wine and
+  cheese tasting, plus stops in Noto and Taormina, as a bus-based multi-day tour — never a
+  private villa stay. Separately, luxury villa-rental listings for exactly this area (Villanovo,
+  Scent of Sicily, Villas of Distinction, Marriott Homes & Villas) describe pool, bedroom count
+  and sea/Etna views only, naming no vineyard, tasting or trail. Italy's existing Sicily region
+  description (`src/countries.py`) only says "Baroque towns, Etna wines and a cuisine of its
+  own. Staffed exclusive private resorts near Noto, Taormina and the west coast" — it already
+  name-drops "Etna wines" but gives no named vineyard, guide or tasting, the same
+  generic-mention gap already closed for Sardinia and other Italian regions on this same page.
+  No result combines a private group villa stay with a named Etna tasting day as one package.
+- Suggested page type: enriched Sicily region description on the existing Italy page
+- Status: drafted — see `drafts/pages/sicily-etna-wine-tasting-region-enrichment.md`, build
+  clean (`npm run build`, 12 pages), pending checker review
+
+## Bordeaux: A Right Bank Day Between Saint-Émilion's Grand Cru Châteaux
+
+**Added (2026-11-07) by the keyword-researcher fallback pass**, same reason as the Sicily entry
+above.
+
+- Target audience: B2C
+- Why this topic: WebSearch confirms a clean split again — half- and full-day small-group tours
+  from Bordeaux (Klook, The Tour Guy, Europe Express, Lokalee) sell a Saint-Émilion village walk
+  paired with a Grand Cru Classé château tasting, departing by van from the city, never from a
+  stay in the vineyards themselves. Villa-rental listings for the same area (Villanovo's
+  "Villa dans les vignes" and "Villa Nalou," CV Villas) describe pool, bedroom count and
+  vineyard views only, naming no château or tasting. France's existing Bordeaux wine country
+  region description (`src/countries.py`) only says "Vineyard estates around Saint-Émilion and
+  the Médoc, with private tastings arranged at the châteaux" — it already promises private
+  tastings but names no specific château, village walk or right-bank itinerary, the same
+  generic-mention gap already closed for Sicily's "Etna wines" line above and for Mosel/Wachau
+  on other country pages. No result combines a private group villa stay in the vineyards with a
+  named Saint-Émilion château day as one package.
+- Suggested page type: enriched Bordeaux wine country region description on the existing France
+  page
+- Status: not started
+
+## Douro Valley: A Private Boat Crossing Between Two Quintas
+
+**Added (2026-11-07) by the keyword-researcher fallback pass**, same reason as the two entries
+above.
+
+- Target audience: B2C
+- Why this topic: WebSearch shows the pattern once more — small-group and private day tours from
+  Porto (Winedering, Musement, My Little Adventure) sell a two-quinta wine tasting plus a one-
+  hour river boat ride and a regional lunch as a single bus/van day trip from the city, never
+  from a stay based in the valley. Quinta-rental listings for the valley itself (CV Villas'
+  "Quinta Matilde," Tripwix, Marriott Homes & Villas) describe pool, bedroom count and terraced
+  views only, naming no specific second quinta or boat crossing. Portugal's existing Douro Valley
+  region description (`src/countries.py`) only says "Terraced vineyards along the river, port and
+  wine quintas, and boat trips through the valley" — it already mentions quintas and boat trips
+  in general terms but names no specific pair of quintas or a structured day between them, the
+  same generic-mention gap already closed for Bordeaux and Sicily above. No result combines a
+  private group villa stay with a named two-quinta-and-boat day as one package.
+- Suggested page type: enriched Douro Valley region description on the existing Portugal page
+- Status: not started
