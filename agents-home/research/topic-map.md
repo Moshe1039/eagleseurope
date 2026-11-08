@@ -494,7 +494,9 @@ above.
   named Saint-Émilion château day as one package.
 - Suggested page type: enriched Bordeaux wine country region description on the existing France
   page
-- Status: not started
+- Status: **published** — checker-approved 2026-11-08, see
+  `drafts/pages/bordeaux-right-bank-chateaux-region-enrichment.md` and the `[PUBLISHED TO
+  PRODUCTION]` commit on `main` from today.
 
 ## Douro Valley: A Private Boat Crossing Between Two Quintas
 
