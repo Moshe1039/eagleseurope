@@ -516,4 +516,6 @@ above.
   same generic-mention gap already closed for Bordeaux and Sicily above. No result combines a
   private group villa stay with a named two-quinta-and-boat day as one package.
 - Suggested page type: enriched Douro Valley region description on the existing Portugal page
-- Status: not started
+- Status: **published** — checker-approved 2026-11-09, see
+  `drafts/pages/douro-valley-two-quintas-region-enrichment.md` and the `[PUBLISHED TO
+  PRODUCTION]` commit on `main` from today.
