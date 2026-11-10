@@ -519,3 +519,72 @@ above.
 - Status: **published** — checker-approved 2026-11-09, see
   `drafts/pages/douro-valley-two-quintas-region-enrichment.md` and the `[PUBLISHED TO
   PRODUCTION]` commit on `main` from today.
+
+## Lake Como: A Boat Day to Villa del Balbianello, Villa Melzi and a Bellagio Tasting
+
+**Added (2026-11-10) by the keyword-researcher fallback pass** — the topic map's only
+`not started` entry ("Villa vs. Hotel for a Leadership Retreat") is still blocked on a human
+decision (see that entry above, unresolved thirteen days running since 2026-10-28), so this pass
+added fresh entries rather than re-attempting it a thirteenth time.
+
+- Target audience: B2C
+- Why this topic: WebSearch shows the same recurring split as every prior enrichment gap —
+  multiple independent boat-tour operators out of Bellagio (lakecomotravel.com's "Three Villas"
+  tour, byfood.com, lokalee.app's wine-tasting boat tours) sell a named itinerary: a stop at
+  Villa del Balbianello, the gardens of Villa Melzi (and, on some itineraries, Villa Carlotta),
+  closing with a local wine tasting at a Bellagio enoteca — always as a standalone boat
+  excursion, never from a stay based on the lake. Separately, villa-rental listings for the same
+  stretch of shore (Marriott Homes & Villas' Lierna villa, Engel & Völkers' Bellagio estate, Plum
+  Guide's "The Dream Castle," Villas of Distinction's "Vista Lago") describe bedroom count, pool
+  and lake view only, naming none of these specific villas or the tasting. Italy's existing Lake
+  Como region description (`src/countries.py`) only says "Grand lakeside exclusive private
+  resorts, gardens running down to the water and evenings on the terrace with the mountains
+  opposite" — no named place — the same generic-description gap already closed for Tuscany,
+  Puglia, Sardinia and Sicily on this same Italy page. No result combines a private group villa
+  stay with this named boat-and-tasting day as one package.
+- Suggested page type: enriched Lake Como region description on the existing Italy page
+- Status: **drafted** — see
+  `drafts/pages/lake-como-balbianello-melzi-region-enrichment.md`, pending checker review.
+
+## Dalmatian Coast: A Speedboat Day to the Blue Cave, Hvar and the Pakleni Islands
+
+**Added (2026-11-10) by the keyword-researcher fallback pass**, same reason as the Lake Como
+entry above.
+
+- Target audience: B2C
+- Why this topic: WebSearch confirms the same pattern again — multiple independent operators out
+  of Split (musement.com, manawa.com's "Blue Cave, Hvar & 6 islands" tour, clicatour.com,
+  icelolly.com) sell a named full-day speedboat itinerary through the Blue Cave on Biševo, Hvar
+  town and the Pakleni Islands, always as a standalone day tour from Split or Trogir, never from
+  a stay based on the coast itself. Villa-rental listings for the Split area (A.M.A Selections'
+  "Villa Sita," Villaway's "Villa Franjo," Oliver's Travels' "Villa Stara," Villas of
+  Distinction's "Villa Primošten") describe bedroom count, pool and sea view only, naming none of
+  these specific sites. Croatia's existing Dalmatian Coast region description (`src/countries.py`)
+  only says "Split and Dubrovnik, stone exclusive private resorts by the water and islands a
+  short boat ride away" — no named island, cave or itinerary — the same generic-description gap
+  already closed for Hvar and Istria on this same Croatia page. No result combines a private
+  group villa stay with this named speedboat day as one package.
+- Suggested page type: enriched Dalmatian Coast region description on the existing Croatia page
+- Status: not started
+
+## Andalusia: A Day Among Ronda and the White Villages of Zahara and Grazalema
+
+**Added (2026-11-10) by the keyword-researcher fallback pass**, same reason as the two entries
+above.
+
+- Target audience: B2C
+- Why this topic: WebSearch shows the pattern once more — multiple independent guided day tours
+  (magpie.travel, guruwalk.com, musement.com, corroborated by the official andalucia.org tourism
+  site) sell a named itinerary through Ronda and the white villages of Zahara de la Sierra and
+  Grazalema, always as a bus/van day trip departing Seville or Granada, never from a stay based
+  in the countryside itself. Cortijo-rental listings for the same area (Marriott Homes & Villas'
+  Ronda large-group villas, "El Cortijo," "Cortijo La Almazara") describe bedroom count, pool and
+  olive-grove acreage only, naming neither Zahara nor Grazalema. Spain's existing Andalusia
+  region description (`src/countries.py`) only says "Cortijos among olive trees, white villages,
+  Seville and Granada within reach, and the coast near Marbella" — it already name-drops "white
+  villages" in passing but names no specific village or itinerary, the same generic-mention gap
+  already closed for Sicily's "Etna wines" and Bordeaux's "private tastings" lines. A group based
+  in a cortijo itself, rather than day-tripping in by bus from Seville, is the differentiated
+  angle no competitor result addresses.
+- Suggested page type: enriched Andalusia region description on the existing Spain page
+- Status: not started
