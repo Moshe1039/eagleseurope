@@ -141,7 +141,7 @@ COUNTRIES = [
             "Base yourselves on the Dalmatian Coast, on the island of Hvar or among the hill towns of Istria, and spend the days between boats, beaches and wineries.",
         ],
         "regions": [
-            ("Dalmatian Coast", "Split and Dubrovnik, stone exclusive private resorts by the water and islands a short boat ride away."),
+            ("Dalmatian Coast", "Split and Dubrovnik, stone exclusive private resorts by the water and islands a short boat ride away. A group can fill its own day with a speedboat out from Split through the Blue Cave on Biševo, a stop in Hvar town, and swim breaks around the Pakleni Islands, back in time for the evening light on the water."),
             ("Hvar", "Lavender fields, a lively harbour town and quiet bays on the island's south side. A group can fill its own days: a morning among the lavender rows of Velo Grablje, timed to the village's lavender festival at the end of June, or a full day sailing out to the Pakleni Islands for swimming stops and a quiet lunch anchorage before the harbour's evening lights come on."),
             ("Istria", "Hill towns, truffles, olive oil and wine, with an easy coastline below. A group can fill its own days: a private truffle hunt with trained dogs in the oak forests near Motovun, an afternoon among Grožnjan's hilltop lanes of galleries and stone houses, or a morning tasting Malvazija at a family winery before heading back down to the coast."),
         ],

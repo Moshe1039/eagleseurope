@@ -3,7 +3,7 @@ topic_map_entry: Lake Como: A Boat Day to Villa del Balbianello, Villa Melzi and
 target_audience: B2C
 edit_type: region_description
 file_edited: ../src/countries.py
-status: pending_checker_review
+status: published
 ---
 
 # Lake Como region enrichment
