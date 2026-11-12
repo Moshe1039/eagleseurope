@@ -598,5 +598,6 @@ above.
   in a cortijo itself, rather than day-tripping in by bus from Seville, is the differentiated
   angle no competitor result addresses.
 - Suggested page type: enriched Andalusia region description on the existing Spain page
-- Status: **drafted** — see
-  `drafts/pages/andalusia-ronda-white-villages-region-enrichment.md`, pending checker review.
+- Status: **published** — checker-approved 2026-11-12, see
+  `drafts/pages/andalusia-ronda-white-villages-region-enrichment.md` and the `[PUBLISHED TO
+  PRODUCTION]` commit on `main` (`c928252`) from today.

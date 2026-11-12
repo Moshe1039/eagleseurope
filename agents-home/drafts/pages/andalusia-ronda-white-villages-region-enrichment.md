@@ -3,7 +3,7 @@ topic_map_entry: Andalusia: A Day Among Ronda and the White Villages of Zahara a
 target_audience: B2C
 edit_type: region_description
 file_edited: ../src/countries.py
-status: pending_checker_review
+status: published
 ---
 
 # Andalusia region enrichment
