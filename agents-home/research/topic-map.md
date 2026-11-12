@@ -570,9 +570,13 @@ entry above.
   already closed for Hvar and Istria on this same Croatia page. No result combines a private
   group villa stay with this named speedboat day as one package.
 - Suggested page type: enriched Dalmatian Coast region description on the existing Croatia page
-- Status: **drafted** — see
-  `drafts/pages/dalmatian-coast-blue-cave-speedboat-region-enrichment.md`, pending checker
-  review.
+- Status: **published** — checker-approved 2026-11-11, see
+  `drafts/pages/dalmatian-coast-blue-cave-speedboat-region-enrichment.md` and the `[PUBLISHED TO
+  PRODUCTION]` commit on `main` (`639063a`) from that day. **Bookkeeping correction
+  (2026-11-12):** this entry was left at `drafted — pending checker review` after it actually
+  published on 2026-11-11 (same commit that fixed the prior day's Lake Como bookkeeping slip,
+  ironically leaving this one behind) — fixed here so the next pass doesn't mistake this for
+  still-pending (same recurring bookkeeping slip as Algarve, Crete and Lake Como earlier).
 
 ## Andalusia: A Day Among Ronda and the White Villages of Zahara and Grazalema
 
@@ -594,4 +598,5 @@ above.
   in a cortijo itself, rather than day-tripping in by bus from Seville, is the differentiated
   angle no competitor result addresses.
 - Suggested page type: enriched Andalusia region description on the existing Spain page
-- Status: not started
+- Status: **drafted** — see
+  `drafts/pages/andalusia-ronda-white-villages-region-enrichment.md`, pending checker review.

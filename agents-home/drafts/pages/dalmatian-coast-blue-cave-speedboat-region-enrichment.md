@@ -3,7 +3,7 @@ topic_map_entry: Dalmatian Coast: A Speedboat Day to the Blue Cave, Hvar and the
 target_audience: B2C
 edit_type: region_description
 file_edited: ../src/countries.py
-status: pending_checker_review
+status: published
 ---
 
 # Dalmatian Coast region enrichment
