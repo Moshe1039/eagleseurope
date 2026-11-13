@@ -601,3 +601,69 @@ above.
 - Status: **published** — checker-approved 2026-11-12, see
   `drafts/pages/andalusia-ronda-white-villages-region-enrichment.md` and the `[PUBLISHED TO
   PRODUCTION]` commit on `main` (`c928252`) from today.
+
+## Sintra: A Private Day Between Pena Palace, Quinta da Regaleira and Cabo da Roca
+
+**Added (2026-11-13) by the keyword-researcher fallback pass** — the topic map's only
+`not started` entry ("Villa vs. Hotel for a Leadership Retreat") is still blocked on a human
+decision (see that entry above, unresolved sixteen days running since 2026-10-28), so this pass
+added fresh entries rather than re-attempting it a sixteenth time.
+
+- Target audience: B2C
+- Why this topic: WebSearch confirms the same recurring split as every prior enrichment gap —
+  numerous operators (HelloTickets, Europe Express, Headout, GuruWalk, Magpie, Lokalee) sell
+  Pena Palace, Quinta da Regaleira and often Cabo da Roca as a single full-day tour, always
+  departing by van from a Lisbon hotel, never from a stay based in Sintra itself. Separately,
+  luxury villa-rental listings for Sintra (Marriott Homes & Villas' "Quinta da Serra," Villanovo's
+  "Villa Serata" and "Villa Azulejo") describe bedroom count, pool and palace *views* only — one
+  explicitly sells a view of Pena Palace and the Moorish Castle without ever naming a visit to
+  either. Portugal's existing Sintra region description (`src/countries.py`) only says "Palaces
+  and forested hills near Lisbon, with the Atlantic coast close by" — no named palace, garden or
+  viewpoint — the same generic-description gap already closed for Algarve and Douro Valley on
+  this same Portugal page. No result combines a private group villa stay in Sintra with a named
+  Pena Palace/Regaleira/Cabo da Roca day as one package.
+- Suggested page type: enriched Sintra region description on the existing Portugal page
+- Status: **published** — checker-approved 2026-11-13, see
+  `drafts/pages/sintra-pena-regaleira-region-enrichment.md`
+
+## Corfu Beyond the Pool: Paleokastritsa's Coves and an Old Town Evening
+
+**Added (2026-11-13) by the keyword-researcher fallback pass**, same reason as the Sintra entry
+above.
+
+- Target audience: B2C
+- Why this topic: WebSearch shows the same pattern again — small-group and private tours out of
+  Corfu Town (Musement, Greeking.me, Lokalee, Clicatour) sell a named day combining Paleokastritsa's
+  coves and monastery with an Old Town walk (some adding Achillion Palace), always as a tour with
+  hotel pickup, never from a stay based in the villa itself. Large-group villa-rental listings for
+  Corfu (Marriott Homes & Villas' "Villa Gouvia Blue," "Koùkos," "Villa Aphrodite Estate," Oliver's
+  Travels' "Villa Althea") describe bedroom count, pool and sea view only, naming neither
+  Paleokastritsa nor the Old Town. Greece's existing Corfu region description (`src/countries.py`)
+  only says "Green hills running down to the Ionian Sea, Venetian old town and calm swimming
+  coves" — it already gestures at the Old Town and coves in passing but names no specific bay,
+  monastery or itinerary, the same generic-mention gap already closed for Sicily's "Etna wines"
+  and Andalusia's "white villages" lines. No result combines a private group villa stay with a
+  named Paleokastritsa-to-Old-Town day as one package.
+- Suggested page type: enriched Corfu region description on the existing Greece page
+- Status: **not started**
+
+## Bavarian Alps: A Private Day Between Neuschwanstein Castle and the Eibsee
+
+**Added (2026-11-13) by the keyword-researcher fallback pass**, same reason as the two entries
+above.
+
+- Target audience: B2C
+- Why this topic: WebSearch confirms the familiar split once more — numerous operators (AAA
+  TripCanvas, Headout, GoWithGuide, Marriott's own activities page) sell Neuschwanstein Castle,
+  often paired with Hohenschwangau or Linderhof, as a private or small-group day tour departing
+  from Munich, with no result mentioning the nearby Eibsee lake or a stay based in the valley
+  itself. Separately, chalet-rental listings around Grainau/Eibsee (Airbnb, Despegar, Expedia)
+  describe pool, sauna and home-cinema amenities and proximity to the Zugspitze only, naming
+  neither Neuschwanstein nor a structured day combining the two. Germany's existing Bavarian Alps
+  region description (`src/countries.py`) only says "Mountain chalets near Garmisch and
+  Berchtesgaden, alpine lakes and walking from the door" — no named castle, lake or itinerary —
+  the same generic-description gap already closed for Mosel Valley on this same Germany page. No
+  result combines a private group villa/chalet stay with a named Neuschwanstein-to-Eibsee day as
+  one package.
+- Suggested page type: enriched Bavarian Alps region description on the existing Germany page
+- Status: **not started**
