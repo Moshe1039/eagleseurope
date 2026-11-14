@@ -645,7 +645,9 @@ above.
   and Andalusia's "white villages" lines. No result combines a private group villa stay with a
   named Paleokastritsa-to-Old-Town day as one package.
 - Suggested page type: enriched Corfu region description on the existing Greece page
-- Status: **not started**
+- Status: **published** — checker-approved 2026-11-14, see
+  `drafts/pages/corfu-paleokastritsa-old-town-region-enrichment.md` and the `[PUBLISHED TO
+  PRODUCTION]` commit on `main` from today.
 
 ## Bavarian Alps: A Private Day Between Neuschwanstein Castle and the Eibsee
 

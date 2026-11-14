@@ -119,7 +119,7 @@ COUNTRIES = [
             ("Crete", "Greece's largest island: mountain villages, gorges, lagoons like Balos and exclusive private resorts above Chania and Elounda. A group can pick its own days: the Minoan palace at Knossos, the pink-tinted sands of Elafonissi, or a morning among Archanes' wine villages tasting local vintages and olive oil."),
             ("The Cyclades", "Mykonos, Paros, Naxos and Antiparos: white villages, windmills and boat days between islands."),
             ("Peloponnese", "Quiet bays, olive groves and ancient sites, with exclusive private resorts near Porto Heli and the Mani. A group can pick its own days: the Byzantine ruins at Mystras, the stone tower villages of the Mani, or a boat through the underground Diros Caves."),
-            ("Corfu", "Green hills running down to the Ionian Sea, Venetian old town and calm swimming coves."),
+            ("Corfu", "Green hills running down to the Ionian Sea, Venetian old town and calm swimming coves. A group can fill its own day here too: the turquoise coves beneath Paleokastritsa's cliff-top monastery in the morning, then an evening wander through the old town's Venetian lanes before a quiet dinner on one of its squares."),
         ],
         "table": "Greek salads with island tomatoes, grilled fish, slow-cooked lamb, local cheeses, olive oil and wines from Crete and Santorini.",
         "season": "May, June, September and October are best: warm sea, fewer crowds and softer heat. July and August are hot and the islands are busiest.",
