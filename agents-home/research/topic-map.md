@@ -671,3 +671,78 @@ above.
 - Status: **published** — checker-approved 2026-11-15, see
   `drafts/pages/bavarian-alps-neuschwanstein-eibsee-region-enrichment.md` and the `[PUBLISHED TO
   PRODUCTION]` commit on `main` (`c07fd26`) from today.
+
+## Salzkammergut: A Day Between Fuschlsee and Hallstatt's Salt Mine
+
+**Added (2026-11-15) by the keyword-researcher fallback pass** — the topic map's only
+`not started` entry ("Villa vs. Hotel for a Leadership Retreat") is still blocked on a human
+decision (see that entry above, unresolved eighteen days running since 2026-10-28), so this pass
+added fresh entries rather than re-attempting it an eighteenth time.
+
+- Target audience: B2C
+- Why this topic: WebSearch shows the pattern once more — multiple independent guided day tours
+  (Panorama Tours' "Lake District Hallstatt Bad Ischl Private Full-Day Tour," and the "Hallstatt
+  and Saint Wolfgang Full Day Private Tour from Salzburg" syndicated across AAA TripCanvas,
+  magpie.travel and theabroadguide.com) sell a named itinerary through Fuschlsee and Schloss
+  Fuschl, St. Gilgen, Wolfgangsee, the imperial summer palace at Bad Ischl, a photo stop at
+  Gosausee near the Dachstein Glacier, and free time in Hallstatt's old town and salt mine.
+  Villa-rental listings for the same lakes (The Hallstatt Villa on i-escape, Villa Anna and
+  Villa Salzweg on salzkammergut.at, Haus Seegarten in St. Wolfgang) describe bedroom count,
+  lake view, private jetty and boathouse access only, naming neither Schloss Fuschl, Bad Ischl's
+  imperial palace, nor the Hallstatt salt mine — the specific sights every guided day actually
+  stops at. Austria's existing Salzkammergut region description (`src/countries.py`) only says
+  "A landscape of lakes and mountains around Hallstatt and Wolfgangsee, close to Salzburg" — no
+  named palace, village or itinerary — the same generic-description gap already closed for the
+  Wachau Valley on this same Austria page.
+- Suggested page type: enriched Salzkammergut region description on the existing Austria page
+- Status: **not started**
+
+## Provence: A Day Between L'Isle-sur-la-Sorgue and Roussillon
+
+**Added (2026-11-15) by the keyword-researcher fallback pass**, same reason as the Salzkammergut
+entry above.
+
+- Target audience: B2C
+- Why this topic: WebSearch shows the pattern once more — multiple independent guided day tours
+  (ToursByLocals' "A Day in Provence – Luberon – Full Day Tour," the "Private Day Trip to Luberon
+  Villages: L'Isle sur la Sorgue, Gordes and Roussillon from Arles" on mylittleadventure.com, and
+  the Avignon-departure itinerary on itineraryfrance.vercel.app) sell a named day built around
+  the Sunday Provençal market in L'Isle-sur-la-Sorgue, a stop at Fontaine-de-Vaucluse, the
+  clifftop viewpoint at Gordes, a walk through the ochre village of Roussillon, and free time in
+  Lourmarin or Ménerbes — operators even time departure to the market day (Sunday for
+  L'Isle-sur-la-Sorgue, Tuesday for Gordes, Thursday for Roussillon). Villa-rental listings for
+  the same Luberon villages (Villa Luberia in Gordes on Villanovo, Bastide Vallat and Bastide des
+  Chenes on Villas of Distinction) describe bedroom count, heated pool and Luberon park views
+  only, naming neither the L'Isle-sur-la-Sorgue market, Fontaine-de-Vaucluse, nor Roussillon's
+  ochre cliffs. France's existing Provence region description (`src/countries.py`) only says
+  "Lavender fields in early summer, hilltop villages in the Luberon and market mornings in towns
+  like L'Isle-sur-la-Sorgue" — it already name-drops L'Isle-sur-la-Sorgue in passing but names no
+  specific market day, spring or ochre village, the same generic-mention gap already closed for
+  Sicily's "Etna wines" and Bordeaux's "private tastings" lines.
+- Suggested page type: enriched Provence region description on the existing France page
+- Status: **not started**
+
+## Lavaux: A Day Between St-Saphorin and Lutry
+
+**Added (2026-11-15) by the keyword-researcher fallback pass**, same reason as the two entries
+above.
+
+- Target audience: B2C
+- Why this topic: WebSearch shows the pattern once more — multiple independent guided
+  experiences (Winerist's "Half-Day Wine Tasting Scenic Tour of Lavaux," Daytrip.com's private
+  day trip from Montreux to the Lavaux Vineyard Terraces and Vevey, and the walking segments
+  catalogued on tour-switzerland.ch and newlyswissed.com's "Hiking the Lavaux Vineyard Terraces
+  in Spring") sell a named day through the UNESCO terraces, pairing a tasting at a specific
+  winery with a walk along marked segments such as St-Saphorin to Chexbres and Épesses to Lutry,
+  or a ride on the Lavaux Express tourist train between the lakeside villages. Villa-rental
+  listings for the same shoreline (the Bourg-en-Lavaux villa on ImmoScout24 and Dreamo, the
+  Grandvaux villa on RealAdvisor) describe room count, pool, parking and panoramic lake-and-Alps
+  view only, naming neither a winery tasting nor the St-Saphorin–Chexbres or Épesses–Lutry
+  terrace walks that guided tours sell as the region's signature day. Switzerland's existing
+  Lavaux & Lake Geneva region description (`src/countries.py`) only says "Vineyard terraces that
+  fall to the lake, a UNESCO landscape between Lausanne and Montreux" — no named village, winery
+  or walking segment — the same generic-description gap already closed for the Wachau and Mosel
+  valleys on other country pages.
+- Suggested page type: enriched Lavaux & Lake Geneva region description on the existing
+  Switzerland page
+- Status: **not started**
