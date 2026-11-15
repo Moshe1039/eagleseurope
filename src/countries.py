@@ -211,7 +211,7 @@ COUNTRIES = [
             "Choose the mountains of Bavaria, the Riesling villages of the Mosel or the shores of Lake Constance.",
         ],
         "regions": [
-            ("Bavarian Alps", "Mountain chalets near Garmisch and Berchtesgaden, alpine lakes and walking from the door."),
+            ("Bavarian Alps", "Mountain chalets near Garmisch and Berchtesgaden, alpine lakes and walking from the door. A group can fill its own day here too: a morning touring Neuschwanstein Castle's turrets and halls, then an afternoon at the Eibsee, swimming or walking the lake's forested shoreline with the Zugspitze rising behind it."),
             ("Mosel Valley", "Steep Riesling vineyards and half-timbered wine villages along the river between Traben-Trarbach and Zell. A group can fill its own days: a private tasting at a family winery on the slopes above Traben-Trarbach, an afternoon in Zell's riverside lanes with its own Riesling tradition, or a slow river cruise linking the wine towns in between."),
             ("Lake Constance", "A lake shared with Austria and Switzerland, with islands, gardens and lakeside exclusive private resorts."),
         ],
