@@ -668,4 +668,6 @@ above.
   result combines a private group villa/chalet stay with a named Neuschwanstein-to-Eibsee day as
   one package.
 - Suggested page type: enriched Bavarian Alps region description on the existing Germany page
-- Status: **not started**
+- Status: **published** — checker-approved 2026-11-15, see
+  `drafts/pages/bavarian-alps-neuschwanstein-eibsee-region-enrichment.md` and the `[PUBLISHED TO
+  PRODUCTION]` commit on `main` (`c07fd26`) from today.
