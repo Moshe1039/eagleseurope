@@ -695,7 +695,9 @@ added fresh entries rather than re-attempting it an eighteenth time.
   named palace, village or itinerary — the same generic-description gap already closed for the
   Wachau Valley on this same Austria page.
 - Suggested page type: enriched Salzkammergut region description on the existing Austria page
-- Status: **not started**
+- Status: **published** — checker-approved 2026-11-16, see
+  `drafts/pages/salzkammergut-fuschlsee-hallstatt-region-enrichment.md` and the `[PUBLISHED TO
+  PRODUCTION]` commit on `main` (`4459107`) from today.
 
 ## Provence: A Day Between L'Isle-sur-la-Sorgue and Roussillon
 
