@@ -189,7 +189,7 @@ COUNTRIES = [
         ],
         "regions": [
             ("Tyrol", "Alpine valleys, mountain huts and ski resorts, with chalets for summer and winter."),
-            ("Salzkammergut", "A landscape of lakes and mountains around Hallstatt and Wolfgangsee, close to Salzburg."),
+            ("Salzkammergut", "A landscape of lakes and mountains around Hallstatt and Wolfgangsee, close to Salzburg. A group based in the Salzkammergut itself, rather than day-tripping in from Salzburg, can build its own day around Fuschlsee's lakeside Schloss Fuschl, a stop at the imperial summer palace in Bad Ischl, and an afternoon in Hallstatt's old town and salt mine."),
             ("Wachau Valley", "Terraced vineyards along the Danube, apricot orchards and Grüner Veltliner tastings. A group staying in the valley itself, rather than day-tripping in from Vienna, can build its own day between the blue-spired village of Dürnstein and the Baroque library at Melk Abbey: a boat crossing the river between the two, with a cellar-door Grüner Veltliner tasting in Dürnstein to close it out."),
         ],
         "table": "Alpine cooking with a lighter touch: lake fish, mountain cheeses, Austrian pastries and wines from the Wachau.",
