@@ -43,7 +43,7 @@ COUNTRIES = [
             "From a stone mas in Provence to an exclusive private resort with sea views on the Côte d'Azur, we choose the house and shape the days around your group.",
         ],
         "regions": [
-            ("Provence", "Lavender fields in early summer, hilltop villages in the Luberon and market mornings in towns like L'Isle-sur-la-Sorgue."),
+            ("Provence", "Lavender fields in early summer, hilltop villages in the Luberon and market mornings in towns like L'Isle-sur-la-Sorgue. A group can fill its own day around L'Isle-sur-la-Sorgue's Sunday market and the spring-fed Fontaine-de-Vaucluse, continuing to the clifftop village of Gordes and the ochre cliffs of Roussillon, with a slower afternoon left for Lourmarin or Ménerbes."),
             ("Côte d'Azur", "Exclusive private resorts above the Mediterranean between Saint-Tropez and Menton, with beach clubs, boat days and the old towns of the Riviera."),
             ("Dordogne", "Châteaux above the river, quiet countryside, truffles and walnuts: a slower, greener France. A group can fill its own day with a canoe down the river past La Roque-Gageac's cliffside houses toward Domme, or a Saturday morning at Sarlat's market, with a winter truffle hunt in the surrounding countryside for those visiting in season."),
             ("Bordeaux wine country", "Vineyard estates around Saint-Émilion and the Médoc, with private tastings arranged at the châteaux. A group can fill its own day with a walk through Saint-Émilion's medieval village and its underground monolithic church, followed by tastings arranged at neighboring Grand Cru Classé châteaux on the Right Bank."),
