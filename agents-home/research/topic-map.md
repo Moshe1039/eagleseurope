@@ -722,7 +722,9 @@ entry above.
   specific market day, spring or ochre village, the same generic-mention gap already closed for
   Sicily's "Etna wines" and Bordeaux's "private tastings" lines.
 - Suggested page type: enriched Provence region description on the existing France page
-- Status: **not started**
+- Status: **published** — checker-approved 2026-11-17, see
+  `drafts/pages/provence-isle-sur-la-sorgue-roussillon-region-enrichment.md` and the `[PUBLISHED
+  TO PRODUCTION]` commit on `main` (`d3798f4`) from today.
 
 ## Lavaux: A Day Between St-Saphorin and Lutry
 
