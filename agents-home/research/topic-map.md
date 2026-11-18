@@ -749,4 +749,6 @@ above.
   valleys on other country pages.
 - Suggested page type: enriched Lavaux & Lake Geneva region description on the existing
   Switzerland page
-- Status: **not started**
+- Status: **published** — checker-approved 2026-11-18, see
+  `drafts/pages/lavaux-st-saphorin-lutry-region-enrichment.md` and the `[PUBLISHED TO
+  PRODUCTION]` commit on `main` from today.
