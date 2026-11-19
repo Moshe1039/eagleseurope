@@ -752,3 +752,71 @@ above.
 - Status: **published** — checker-approved 2026-11-18, see
   `drafts/pages/lavaux-st-saphorin-lutry-region-enrichment.md` and the `[PUBLISHED TO
   PRODUCTION]` commit on `main` from today.
+
+## Amalfi Coast: A Day on the Path of the Gods, Ending in Ravello
+
+**Added (2026-11-19) by the keyword-researcher fallback pass** — the topic map's only
+`not started` entry (the leadership-retreat FAQ) is still blocked on a human call, now
+twenty-two days running, so this pass restocked fresh entries rather than re-attempting it a
+twenty-second time.
+
+- Target audience: B2C
+- Why this topic: WebSearch shows the same pattern closed on other region pages — guided-tour
+  and day-trip sellers (AAA TripCanvas's "Private Guided Tour to the Path of the Gods – Half
+  Day," The Roman Guy's "Positano, Amalfi and Ravello Day Trip from Naples") sell a named day
+  built around the Path of the Gods trail and Ravello, and villa-rental guides for the coast
+  (ItalyPlanner's "Best Villas to Rent on the Amalfi Coast") specifically recommend basing in
+  Ravello or a quieter town like Conca dei Marini or Praiano for easy access to that trail and
+  advise booking a year ahead since rentals "fill up quicker than any other region of Italy."
+  None of these name Villa Cimbrone's cliff gardens in Ravello (open 9:00–17:00, last entry
+  16:30, per the Villa Cimbrone hotel's own notice) as part of that same day. Italy's existing
+  Amalfi Coast region description (`src/countries.py`) only says "Lemon terraces and cliffside
+  exclusive private resorts above the sea, with boat days to Capri and long dinners as the
+  lights come on in Positano" — no Path of the Gods, no Ravello, no named garden — the same
+  generic-description gap already closed for Lavaux, the Wachau and the Mosel valleys.
+- Suggested page type: enriched Amalfi Coast region description on the existing Italy page
+- Status: **published** — checker-approved 2026-11-19, see
+  `drafts/pages/amalfi-coast-path-of-the-gods-region-enrichment.md` and the `[PUBLISHED TO
+  PRODUCTION]` commit on `main` from today.
+
+## Zermatt: A Day on the Gornergrat and the Five Lakes Trail
+
+**Added (2026-11-19) by the keyword-researcher fallback pass**, same reason as the entry above.
+
+- Target audience: B2C
+- Why this topic: WebSearch shows the pattern again — villa/chalet listings for Zermatt
+  (ExceptionalVillas' Zermatt chalets guide, Villanovo's and LeoTrippi's Zermatt pages,
+  describing properties like the Whymper Residence "2 minutes from the Gornergrat mountain
+  railway" and chalets near the Matterhorn Glacier Paradise lift) sell proximity to the lifts by
+  room count and walking distance only, naming neither the Gornergrat cogwheel railway ride
+  itself nor a specific hiking return such as the Five Lakes Trail — both confirmed as named,
+  bookable summer activities on Zermatt's own tourism site and Oxfordski's "Zermatt Summer
+  Resort Chalet and Hotel Guide" (which also lists the Matterhorn Glacier Trail and the
+  Gornergrat Riffelsee Trail as alternatives). Switzerland's existing Zermatt region description
+  (`src/countries.py`) only says "Car-free village life beneath the Matterhorn, with chalets for
+  summer walking and winter skiing" — no named railway, trail or glacier excursion — the same
+  generic-description gap already closed for Lavaux and the Engadin's neighbouring entries.
+- Suggested page type: enriched Zermatt region description on the existing Switzerland page
+- Status: not started
+
+## Cyclades: Island-Hopping Without Each Couple Booking Its Own Ferry
+
+**Added (2026-11-19) by the keyword-researcher fallback pass**, same reason as the two entries
+above.
+
+- Target audience: B2C
+- Why this topic: WebSearch on Cyclades island-hopping (Greeka's "Island hopping: Athens - Paros
+  - Naxos," GetYourGuide's private Naxos-to-Paros boat listing, Seajets' "Day Trip from Naxos to
+  Paros" blog, TourRadar's Cyclades island-hopping tour listings) all sell the connection between
+  islands as something a visitor arranges themselves: a public ferry seat, a shared group tour
+  seat, or a private boat booked individually — nothing addresses the actual organizer pain
+  point for a multi-couple group of needing every couple on the same boat, at the same time,
+  without one person chasing seven others to agree on a ferry time. This is the same
+  decision-fatigue gap the existing Puglia/Tuscany "who pays for which bedroom" FAQs close for
+  cost-splitting, just applied to logistics instead of money. Greece's existing Cyclades region
+  description (`src/countries.py`) only says "Mykonos, Paros, Naxos and Antiparos: white
+  villages, windmills and boat days between islands" — it doesn't say who arranges the "boat
+  days" or that it's one booking for the whole group, not seven individual ones.
+- Suggested page type: new FAQ entry on the existing Greece page (organizer-logistics angle,
+  alongside the existing Crete FAQs)
+- Status: not started
