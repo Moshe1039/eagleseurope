@@ -165,7 +165,7 @@ COUNTRIES = [
         ],
         "regions": [
             ("Engadin & St. Moritz", "High alpine lakes, larch forests and one of the world's original winter resorts."),
-            ("Zermatt", "Car-free village life beneath the Matterhorn, with chalets for summer walking and winter skiing."),
+            ("Zermatt", "Car-free village life beneath the Matterhorn, with chalets for summer walking and winter skiing. A group staying through the summer can ride the Gornergrat cogwheel railway up for the view across to Monte Rosa, then walk back down on the Five Lakes Trail, stopping at Stellisee for the Matterhorn's reflection."),
             ("Lavaux & Lake Geneva", "Vineyard terraces that fall to the lake, a UNESCO landscape between Lausanne and Montreux. A group based among the vines itself, rather than joining a tour bus from Montreux, can build its own day along the terrace paths between St-Saphorin and Chexbres, or Épesses and Lutry, closing with a tasting at a village winery."),
         ],
         "table": "Alpine cheeses, fondue and raclette nights, lake fish and Swiss wines rarely found outside the country.",

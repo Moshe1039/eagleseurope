@@ -797,7 +797,9 @@ twenty-second time.
   summer walking and winter skiing" — no named railway, trail or glacier excursion — the same
   generic-description gap already closed for Lavaux and the Engadin's neighbouring entries.
 - Suggested page type: enriched Zermatt region description on the existing Switzerland page
-- Status: not started
+- Status: **published** — checker-approved 2026-11-20, see
+  `drafts/pages/zermatt-gornergrat-five-lakes-region-enrichment.md` and the `[PUBLISHED TO
+  PRODUCTION]` commit on `main` from today.
 
 ## Cyclades: Island-Hopping Without Each Couple Booking Its Own Ferry
 
