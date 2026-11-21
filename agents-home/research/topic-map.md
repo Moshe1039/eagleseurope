@@ -821,4 +821,6 @@ above.
   days" or that it's one booking for the whole group, not seven individual ones.
 - Suggested page type: new FAQ entry on the existing Greece page (organizer-logistics angle,
   alongside the existing Crete FAQs)
-- Status: not started
+- Status: **published** — checker-approved 2026-11-21, see
+  `drafts/pages/cyclades-island-hopping-faq.md` and the `[PUBLISHED TO PRODUCTION]` commit on
+  `main` from today.

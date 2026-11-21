@@ -127,6 +127,7 @@ COUNTRIES = [
             ("Can we book an exclusive private resort in Crete with a private chef?", "Yes. Our Crete exclusive private resorts include a private chef, housekeeping, transfers and a host, with days out to villages, wineries and beaches."),
             ("Which Greek island is best for a group exclusive private resort holiday?", "Crete offers the most variety and space. Paros and Antiparos suit groups who want island life without the Mykonos crowds."),
             ("Is a Crete exclusive private resort worth it for just two couples?", "Yes. Exclusive private resort sizes in Crete range from an intimate home for two couples up to space for a full group, so a smaller group gets the same private chef, housekeeping, transfers and host, and chooses together how to spend the days: mountain villages, gorges, wineries or lagoons like Balos."),
+            ("If we island-hop in the Cyclades, does every couple need to book its own ferry?", "No. Boat days between islands like Mykonos, Paros, Naxos and Antiparos are arranged for the whole group as one booking, at one time, so no one couple is left chasing the others to agree on a crossing."),
         ],
     },
     {
