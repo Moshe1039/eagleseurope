@@ -824,3 +824,66 @@ above.
 - Status: **published** — checker-approved 2026-11-21, see
   `drafts/pages/cyclades-island-hopping-faq.md` and the `[PUBLISHED TO PRODUCTION]` commit on
   `main` from today.
+
+## Lake Constance: A Boat Crossing to Mainau Island and an Afternoon in Meersburg
+
+**Added (2026-11-22) by the keyword-researcher fallback pass** — the topic map's only
+`not started` entry (the leadership-retreat FAQ) is still blocked on a human call, now
+twenty-five days running since 2026-10-28, so this pass restocked fresh entries rather than
+re-attempting it a twenty-fifth time.
+
+- Target audience: B2C
+- Why this topic: WebSearch shows the same pattern closed on other region pages — multiple
+  independent day-trip operators (AAA TripCanvas, Trip.com, Lokalee, Magpie Travel, Experience
+  Gifts, Pelago, dyvarcity) sell a named full-day itinerary pairing the gardens of Mainau Island
+  with an afternoon in Meersburg, home to what one listing calls Germany's oldest inhabited
+  fortress — always as a boat/bus tour departing a hotel base around the lake, never from a
+  private villa stay. Villa-rental listings for the Meersburg shore itself (Villa Lake Constance
+  view, Villa Bodenseeblick, Villa mit Privatem Seezugang) describe bedroom count, lake access
+  and terrace/garden only, naming neither Mainau nor Meersburg Castle. Germany's existing Lake
+  Constance region description (`src/countries.py`) only says "A lake shared with Austria and
+  Switzerland, with islands, gardens and lakeside exclusive private resorts" — no named island,
+  castle or itinerary — the same generic-description gap already closed for the Mosel Valley and
+  Bavarian Alps on this same Germany page.
+- Suggested page type: enriched Lake Constance region description on the existing Germany page
+- Status: **drafted** — see `drafts/pages/lake-constance-mainau-meersburg-region-enrichment.md`,
+  pending checker review
+
+## Engadin & St. Moritz: A Lake Walk to Lej da Staz and Heidi's Flower Trail
+
+**Added (2026-11-22) by the keyword-researcher fallback pass**, same reason as the Lake
+Constance entry above.
+
+- Target audience: B2C
+- Why this topic: WebSearch confirms the same split again — independent hiking sources (the
+  official St. Moritz tourism site, Komoot, and Engadin.ch's "seven relaxing hikes") name
+  specific, easy, bookable walking routes: a short lake walk out to Lej da Staz just outside St.
+  Moritz, the flat loop around Lake St. Moritz itself, and Heidi's Flower Trail from Chantarella,
+  in bloom June to October. Chalet and villa-rental listings for the same area (Villa Volt,
+  Engadin Chalet Private Retreat, Chesarina Chalet, Chesa el Toula, Boutique Chalet Moritz)
+  describe bedroom count, pool and spa amenities only, naming none of these named lakes or
+  trails. Switzerland's existing Engadin & St. Moritz region description (`src/countries.py`)
+  only says "High alpine lakes, larch forests and one of the world's original winter resorts" —
+  no named lake, trail or village — the same generic-description gap already closed for Zermatt
+  and Lavaux on this same Switzerland page.
+- Suggested page type: enriched Engadin & St. Moritz region description on the existing
+  Switzerland page
+- Status: not started
+
+## Tyrol: Seefeld's Circular Walk to the Historic Inn at Triendlsäge
+
+**Added (2026-11-22) by the keyword-researcher fallback pass**, same reason as the two entries
+above.
+
+- Target audience: B2C
+- Why this topic: WebSearch shows the pattern once more — Seefeld's own tourism site and Komoot
+  name specific, easy, bookable circular walks from the village itself: through forest to the
+  historic Gasthof Triendlsäge, out to the Wildmoosalm alpine hut, and the longer Gschwandtkopf
+  round tour. Chalet-rental listings for the same village (Mountains Chalets, Löwen Chalets, a
+  5-bedroom Kranebitten/Sellrain property) describe bedroom count, sauna and ski-area proximity
+  only, naming none of these walks or huts. Austria's existing Tyrol region description
+  (`src/countries.py`) only says "Alpine valleys, mountain huts and ski resorts, with chalets for
+  summer and winter" — no named village, trail or hut — the same generic-description gap already
+  closed for the Salzkammergut and Wachau Valley on this same Austria page.
+- Suggested page type: enriched Tyrol region description on the existing Austria page
+- Status: not started

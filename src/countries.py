@@ -214,7 +214,7 @@ COUNTRIES = [
         "regions": [
             ("Bavarian Alps", "Mountain chalets near Garmisch and Berchtesgaden, alpine lakes and walking from the door. A group can fill its own day here too: a morning touring Neuschwanstein Castle's turrets and halls, then an afternoon at the Eibsee, swimming or walking the lake's forested shoreline with the Zugspitze rising behind it."),
             ("Mosel Valley", "Steep Riesling vineyards and half-timbered wine villages along the river between Traben-Trarbach and Zell. A group can fill its own days: a private tasting at a family winery on the slopes above Traben-Trarbach, an afternoon in Zell's riverside lanes with its own Riesling tradition, or a slow river cruise linking the wine towns in between."),
-            ("Lake Constance", "A lake shared with Austria and Switzerland, with islands, gardens and lakeside exclusive private resorts."),
+            ("Lake Constance", "A lake shared with Austria and Switzerland, with islands, gardens and lakeside exclusive private resorts. A group can fill its own day here too: a boat crossing to the gardens of Mainau Island, then an afternoon among the turrets of Meersburg Castle, Germany's oldest inhabited fortress, perched above the water."),
         ],
         "table": "Seasonal regional cooking, lake fish, Bavarian classics done well and Rieslings from the Mosel.",
         "season": "May to September for lakes, walking and vineyards; December for Christmas markets and winter chalets.",
