@@ -846,8 +846,13 @@ re-attempting it a twenty-fifth time.
   castle or itinerary — the same generic-description gap already closed for the Mosel Valley and
   Bavarian Alps on this same Germany page.
 - Suggested page type: enriched Lake Constance region description on the existing Germany page
-- Status: **drafted** — see `drafts/pages/lake-constance-mainau-meersburg-region-enrichment.md`,
-  pending checker review
+- Status: **published** — checker-approved 2026-11-22, see
+  `drafts/pages/lake-constance-mainau-meersburg-region-enrichment.md` and the `[PUBLISHED TO
+  PRODUCTION]` commit on `main` (`7decb28`) from that day. **Bookkeeping correction
+  (2026-11-23):** this entry was left at `drafted — pending checker review` after it actually
+  published on 2026-11-22 — the commit and that day's report both confirm it went live same-day.
+  Fixed here so this pass doesn't duplicate work on an already-published entry (same recurring
+  bookkeeping slip as Algarve, Crete, Lake Como and Dalmatian Coast earlier).
 
 ## Engadin & St. Moritz: A Lake Walk to Lej da Staz and Heidi's Flower Trail
 
@@ -868,7 +873,9 @@ Constance entry above.
   and Lavaux on this same Switzerland page.
 - Suggested page type: enriched Engadin & St. Moritz region description on the existing
   Switzerland page
-- Status: not started
+- Status: **published** — checker-approved 2026-11-23, see
+  `drafts/pages/engadin-st-moritz-lej-da-staz-heidi-trail-region-enrichment.md` and the
+  `[PUBLISHED TO PRODUCTION]` commit on `main` from today.
 
 ## Tyrol: Seefeld's Circular Walk to the Historic Inn at Triendlsäge
 

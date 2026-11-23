@@ -165,7 +165,7 @@ COUNTRIES = [
             "Every stay includes a private chef, daily housekeeping, private transfers and a host on call.",
         ],
         "regions": [
-            ("Engadin & St. Moritz", "High alpine lakes, larch forests and one of the world's original winter resorts."),
+            ("Engadin & St. Moritz", "High alpine lakes, larch forests and one of the world's original winter resorts. A group staying through the summer can walk out to the still waters of Lej da Staz, circle Lake St. Moritz itself on its flat lakeside path, or ride up to Chantarella for Heidi's Flower Trail, in bloom from June to October."),
             ("Zermatt", "Car-free village life beneath the Matterhorn, with chalets for summer walking and winter skiing. A group staying through the summer can ride the Gornergrat cogwheel railway up for the view across to Monte Rosa, then walk back down on the Five Lakes Trail, stopping at Stellisee for the Matterhorn's reflection."),
             ("Lavaux & Lake Geneva", "Vineyard terraces that fall to the lake, a UNESCO landscape between Lausanne and Montreux. A group based among the vines itself, rather than joining a tour bus from Montreux, can build its own day along the terrace paths between St-Saphorin and Chexbres, or Épesses and Lutry, closing with a tasting at a village winery."),
         ],
