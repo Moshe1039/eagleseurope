@@ -189,7 +189,7 @@ COUNTRIES = [
             "Come in summer for lakes, walks and vineyards, or in winter for a catered ski chalet with your friends.",
         ],
         "regions": [
-            ("Tyrol", "Alpine valleys, mountain huts and ski resorts, with chalets for summer and winter."),
+            ("Tyrol", "Alpine valleys, mountain huts and ski resorts, with chalets for summer and winter. A group based in Seefeld can step straight onto its own circular walks from the village: through forest to the historic inn at Triendlsäge, out to the Wildmoosalm alpine hut, or the longer Gschwandtkopf round tour for sweeping valley views."),
             ("Salzkammergut", "A landscape of lakes and mountains around Hallstatt and Wolfgangsee, close to Salzburg. A group based in the Salzkammergut itself, rather than day-tripping in from Salzburg, can build its own day around Fuschlsee's lakeside Schloss Fuschl, a stop at the imperial summer palace in Bad Ischl, and an afternoon in Hallstatt's old town and salt mine."),
             ("Wachau Valley", "Terraced vineyards along the Danube, apricot orchards and Grüner Veltliner tastings. A group staying in the valley itself, rather than day-tripping in from Vienna, can build its own day between the blue-spired village of Dürnstein and the Baroque library at Melk Abbey: a boat crossing the river between the two, with a cellar-door Grüner Veltliner tasting in Dürnstein to close it out."),
         ],
