@@ -893,4 +893,6 @@ above.
   summer and winter" — no named village, trail or hut — the same generic-description gap already
   closed for the Salzkammergut and Wachau Valley on this same Austria page.
 - Suggested page type: enriched Tyrol region description on the existing Austria page
-- Status: not started
+- Status: **published** — checker-approved 2026-11-24, see
+  `drafts/pages/tyrol-seefeld-triendlsaege-region-enrichment.md` and the `[PUBLISHED TO
+  PRODUCTION]` commit on `main` (`84c27e0`) from today.
