@@ -896,3 +896,69 @@ above.
 - Status: **published** — checker-approved 2026-11-24, see
   `drafts/pages/tyrol-seefeld-triendlsaege-region-enrichment.md` and the `[PUBLISHED TO
   PRODUCTION]` commit on `main` (`84c27e0`) from today.
+
+## Côte d'Azur: Èze's Medieval Village and the Cap d'Antibes Coastal Path
+
+**Added (2026-11-25) by the keyword-researcher fallback pass** — the topic map's only
+`not started` entry (the leadership-retreat FAQ) is still blocked on a human call, now
+twenty-eight days running since 2026-10-28, so this pass restocked fresh entries rather than
+re-attempting it a twenty-eighth time. This pass also checked `../src/countries.py` directly
+against every existing region across all 9 countries: Tyrol, Lake Constance, Engadin, Zermatt,
+Lavaux, the Bavarian Alps, the Mosel Valley, Salzkammergut, the Wachau Valley and every region in
+Italy, Greece and Croatia already carry a named-attraction enrichment sentence. Three regions
+across France, Spain and Portugal are still generic. This entry addresses the first.
+
+- Target audience: B2C
+- Why this topic: WebSearch on Côte d'Azur day trips (Scott Dunn, Oliver's Travels, Rough
+  Guides) repeatedly names the same pairing: the medieval hill village of Èze — reachable on foot
+  via a roughly 75-minute trail that several guides say should end with a visit to the Jardin
+  d'Èze — and a short coastal walking path around Cap d'Antibes, one guide calling it "one of the
+  prettiest peninsulas along the French Riviera." Villa-rental listings for the Côte d'Azur
+  itself (CV Villas, The Top Villas, Airbnb Saint-Tropez luxury listings) describe bedroom count,
+  pool and sea view only, naming neither Èze nor Cap d'Antibes. France's existing Côte d'Azur
+  region description (`src/countries.py`) only says "Exclusive private resorts above the
+  Mediterranean between Saint-Tropez and Menton, with beach clubs, boat days and the old towns of
+  the Riviera" — no named village, trail or garden — the same generic-description gap already
+  closed for Provence, Dordogne and Bordeaux wine country on this same France page.
+- Suggested page type: enriched Côte d'Azur region description on the existing France page
+- Status: **published** — checker-approved 2026-11-25, see
+  `drafts/pages/cote-d-azur-eze-cap-d-antibes-region-enrichment.md` and the `[PUBLISHED TO
+  PRODUCTION]` commit on `main` from today.
+
+## Ibiza: The Moscarter Lighthouse Loop and Benirràs Sunset
+
+**Added (2026-11-25) by the keyword-researcher fallback pass**, same reason as the entry above.
+
+- Target audience: B2C
+- Why this topic: WebSearch on Ibiza's north coast (Komoot, Kimkim, Lonely Planet) repeatedly
+  names the same walk as the island's most popular hike away from the clubs: a circular route
+  past Punta Moscarter — described as the island's tallest lighthouse — linking the villages of
+  Portinatx and the inland town of Sant Joan, plus Benirràs beach's well-known Sunday
+  sunset-drumming gathering on the same north coast. Villa-rental listings for Ibiza's north
+  (searched alongside the "quieter side of the island" framing) describe bedroom count, pool and
+  proximity to the airport only, naming neither the lighthouse walk nor Benirràs. Spain's
+  existing Ibiza region description (`src/countries.py`) only says "The quieter, beautiful side of
+  the island: exclusive private resorts in the north, sunset terraces and beach lunches" — no
+  named walk, lighthouse or beach — the same generic-description gap already closed for Mallorca,
+  Andalusia and the Costa Brava on this same Spain page.
+- Suggested page type: enriched Ibiza region description on the existing Spain page
+- Status: **not started**
+
+## Comporta: A Rice-Field Bike Ride and a Sado Estuary Dolphin Crossing
+
+**Added (2026-11-25) by the keyword-researcher fallback pass**, same reason as the two entries
+above.
+
+- Target audience: B2C
+- Why this topic: WebSearch on Comporta (Rough Guides, Culture Trip, Fora Travel, Mr & Mrs Smith)
+  repeatedly pairs the same two activities beyond the beach itself: renting a bike to ride through
+  Comporta's rice fields, and a short boat crossing from nearby Tróia across the Sado estuary to
+  spot the resident bottlenose dolphins. Villa-rental listings for Comporta (searched under its
+  "Hamptons of Portugal" design-led framing) describe bedroom count, pool and architectural style
+  only, naming neither the rice-field ride nor the dolphin crossing. Portugal's existing Comporta
+  region description (`src/countries.py`) only says "Rice fields, dunes and endless beaches south
+  of Lisbon, with a barefoot, design-led style" — the rice fields are named but no specific
+  activity, boat crossing or wildlife sighting is — the same generic-description gap already
+  closed for the Algarve, Douro Valley and Sintra on this same Portugal page.
+- Suggested page type: enriched Comporta region description on the existing Portugal page
+- Status: **not started**
