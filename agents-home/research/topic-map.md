@@ -942,7 +942,9 @@ across France, Spain and Portugal are still generic. This entry addresses the fi
   named walk, lighthouse or beach — the same generic-description gap already closed for Mallorca,
   Andalusia and the Costa Brava on this same Spain page.
 - Suggested page type: enriched Ibiza region description on the existing Spain page
-- Status: **not started**
+- Status: **published** — checker-approved 2026-11-26, see
+  `drafts/pages/ibiza-moscarter-benirras-region-enrichment.md` and the `[PUBLISHED TO
+  PRODUCTION]` commit on `main` from today.
 
 ## Comporta: A Rice-Field Bike Ride and a Sado Estuary Dolphin Crossing
 
