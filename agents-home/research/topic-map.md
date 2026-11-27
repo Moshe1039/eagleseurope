@@ -963,4 +963,6 @@ above.
   activity, boat crossing or wildlife sighting is — the same generic-description gap already
   closed for the Algarve, Douro Valley and Sintra on this same Portugal page.
 - Suggested page type: enriched Comporta region description on the existing Portugal page
-- Status: **not started**
+- Status: **published** — checker-approved 2026-11-27, see
+  `drafts/pages/comporta-rice-fields-dolphin-region-enrichment.md` and the `[PUBLISHED TO
+  PRODUCTION]` commit on `main` from today.
