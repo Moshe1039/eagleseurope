@@ -966,3 +966,53 @@ above.
 - Status: **published** — checker-approved 2026-11-27, see
   `drafts/pages/comporta-rice-fields-dolphin-region-enrichment.md` and the `[PUBLISHED TO
   PRODUCTION]` commit on `main` from today.
+
+## The Cyclades: A Day on Delos, the Cave of Antiparos and Naxos's Portara
+
+**Added (2026-11-28) by the keyword-researcher fallback pass** — the topic map's only
+`not started` entry (the leadership-retreat FAQ) is still blocked on a human call, now
+thirty-one days running since 2026-10-28, so this pass restocked fresh entries rather than
+re-attempting it a thirty-first time. This pass also re-checked `../src/countries.py` directly
+against every region across all 9 countries: every single one now carries a named-attraction
+enrichment sentence **except this one** — the Cyclades is the last un-enriched region on the
+entire site.
+
+- Target audience: B2C
+- Why this topic: WebSearch on Cyclades island-hopping itineraries (The Thinking Traveller,
+  Greeka, Kimkim, Layla) consistently names the same specific sites beyond the islands
+  themselves: a day trip from Mykonos to Delos, the sacred ancient island (UNESCO-listed
+  archaeological site, reached only by boat); the Cave of Antiparos up Agios Ioannis Hill, known
+  for its stalactites and stalagmites; and Naxos's Portara (the giant marble doorway at the
+  harbour entrance) and its Old Market quarter in Naxos Town. None of these are mentioned on
+  Greece's existing Cyclades region description, which only says "Mykonos, Paros, Naxos and
+  Antiparos: white villages, windmills and boat days between islands" — the same
+  generic-description gap already closed for every other region on the site (Crete and
+  Peloponnese on this same Greece page, plus all of Italy, France, Spain, Portugal, Croatia,
+  Switzerland, Austria and Germany). The existing Cyclades FAQ ("does every couple need to book
+  its own ferry?") already addresses the *logistics* pain point; this entry addresses the
+  separate, still-open gap of the region description itself naming no actual attraction.
+- Suggested page type: enriched Cyclades region description on the existing Greece page
+- Status: **published** — checker-approved 2026-11-28, see
+  `drafts/pages/cyclades-delos-antiparos-naxos-region-enrichment.md` and the `[PUBLISHED TO
+  PRODUCTION]` commit on `main` (`16eb675`) from today.
+
+## France: A Villa Where the Room You Get Isn't a Negotiation
+
+**Added (2026-11-28) by the keyword-researcher fallback pass**, same reason as the entry above.
+
+- Target audience: B2C
+- Why this topic: WebSearch on villa cost-splitting for group trips (villapads.com's "Group
+  Travel Under One Roof: Splitting a Villa Fairly") confirms the same organizer pain point
+  already used to justify Italy's Tuscany and Puglia FAQs — uneven room sizes turning into a
+  negotiation over who pays more, and the guide's own advice to settle the split before the trip
+  rather than during it — but this generic advice guide is the *only* source addressing it; no
+  France-specific villa operator (Simpson Travel, Villas of Distinction, Marriott Homes & Villas)
+  offers a fixed-price structure that removes the negotiation entirely, they all price per villa
+  or per room. France's existing FAQ list has only two entries (chef booking, lavender timing) —
+  it's one of five country pages (with Spain, Croatia, Austria, Germany) that still lacks the
+  organizer-pain-point FAQ already shipped for Italy, Portugal and Greece. France was picked
+  first since Provence and the Dordogne are this product's most-requested French regions and the
+  existing Italy FAQs (bedroom disputes, cost-chasing) transfer directly.
+- Suggested page type: new FAQ entry on the existing France page (bedroom/cost-dispute angle,
+  same pattern as Italy's Tuscany and Puglia FAQs)
+- Status: not started
