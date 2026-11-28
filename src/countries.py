@@ -117,7 +117,7 @@ COUNTRIES = [
         ],
         "regions": [
             ("Crete", "Greece's largest island: mountain villages, gorges, lagoons like Balos and exclusive private resorts above Chania and Elounda. A group can pick its own days: the Minoan palace at Knossos, the pink-tinted sands of Elafonissi, or a morning among Archanes' wine villages tasting local vintages and olive oil."),
-            ("The Cyclades", "Mykonos, Paros, Naxos and Antiparos: white villages, windmills and boat days between islands."),
+            ("The Cyclades", "Mykonos, Paros, Naxos and Antiparos: white villages, windmills and boat days between islands. A group can fill its own day with a crossing from Mykonos to the sacred island of Delos for its ancient ruins, a visit to the stalactite-lined Cave of Antiparos, or an afternoon beneath Naxos's marble Portara before wandering the Old Market quarter of Naxos Town."),
             ("Peloponnese", "Quiet bays, olive groves and ancient sites, with exclusive private resorts near Porto Heli and the Mani. A group can pick its own days: the Byzantine ruins at Mystras, the stone tower villages of the Mani, or a boat through the underground Diros Caves."),
             ("Corfu", "Green hills running down to the Ionian Sea, Venetian old town and calm swimming coves. A group can fill its own day here too: the turquoise coves beneath Paleokastritsa's cliff-top monastery in the morning, then an evening wander through the old town's Venetian lanes before a quiet dinner on one of its squares."),
         ],
